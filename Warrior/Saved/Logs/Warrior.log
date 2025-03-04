@@ -2316,3 +2316,554 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.04-05.20.20:470][826]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
 [2025.03.04-05.20.20:470][826]LogShaderCompilers: Display: Material Cache Hits: 23 (17%)
 [2025.03.04-05.20.20:470][826]LogShaderCompilers: Display: ================================================
+[2025.03.04-05.21.09:477][973]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1672.704468
+[2025.03.04-05.21.10:478][976]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-05.21.10:478][976]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1673.373901, Update Interval: 357.220367
+[2025.03.04-05.27.39:514][143]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2062.743652
+[2025.03.04-05.27.40:513][146]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-05.27.40:513][146]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2063.410400, Update Interval: 332.595612
+[2025.03.04-05.33.44:226][237]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2427.455322
+[2025.03.04-05.33.45:227][240]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-05.33.45:227][240]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2428.122803, Update Interval: 331.826538
+[2025.03.04-05.39.54:267][347]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2797.496094
+[2025.03.04-05.39.55:267][350]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-05.39.55:267][350]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2798.163086, Update Interval: 307.432465
+[2025.03.04-05.45.57:301][436]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3160.529053
+[2025.03.04-05.45.58:635][440]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-05.45.58:635][440]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3161.529053, Update Interval: 304.881744
+[2025.03.04-05.51.46:673][484]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3509.899902
+[2025.03.04-05.51.47:673][487]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-05.51.47:673][487]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3510.566650, Update Interval: 323.619507
+[2025.03.04-05.55.11:806][100]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.03.04-05.58.07:395][626]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3890.615723
+[2025.03.04-05.58.08:395][629]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-05.58.08:395][629]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3891.282227, Update Interval: 345.442688
+[2025.03.04-06.04.38:443][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4281.672363
+[2025.03.04-06.04.39:443][802]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.04.39:443][802]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4282.338867, Update Interval: 342.950531
+[2025.03.04-06.11.02:817][952]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4666.054688
+[2025.03.04-06.11.03:818][955]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.11.03:818][955]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4666.721680, Update Interval: 352.258057
+[2025.03.04-06.17.41:858][149]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5065.108887
+[2025.03.04-06.17.42:858][152]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.17.42:858][152]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5065.775879, Update Interval: 317.910095
+[2025.03.04-06.23.45:244][239]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5428.501953
+[2025.03.04-06.23.46:244][242]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.23.46:244][242]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5429.168457, Update Interval: 351.320526
+[2025.03.04-06.30.25:299][439]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5828.564941
+[2025.03.04-06.30.26:299][442]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.30.26:299][442]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5829.230957, Update Interval: 304.614410
+[2025.03.04-06.36.27:344][526]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6190.614746
+[2025.03.04-06.36.28:344][528]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.36.28:344][528]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6191.281250, Update Interval: 327.124237
+[2025.03.04-06.42.28:388][608]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6551.668945
+[2025.03.04-06.42.29:389][611]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.42.29:389][611]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6552.335938, Update Interval: 339.101532
+[2025.03.04-06.48.32:465][748]LogSlate: Window 'BP_HeroCharacter' being destroyed
+[2025.03.04-06.48.32:470][748]LogSlate: Window 'BP_HeroCharacter' being destroyed
+[2025.03.04-06.48.32:522][748]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.03.04-06.48.32:523][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.04-06.48.32:712][748]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2025.03.04-06.48.37:245][905]LogSlate: External Image Picker: DecompressImage failed
+[2025.03.04-06.48.37:497][905]LogAutomationController: Ignoring very large delta of 2.04 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.03.04-06.48.41:202][918]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6924.491699
+[2025.03.04-06.48.42:228][922]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.48.42:228][922]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6925.181641, Update Interval: 324.503906
+[2025.03.04-06.49.37:906][857]LogSlate: Window '게임플레이 태그 매니저' being destroyed
+[2025.03.04-06.49.38:637][859]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.03.04-06.49.38:639][859]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.03.04-06.50.02:787][733]Candidate modules for hot reload:
+[2025.03.04-06.50.02:787][733]  Warrior
+[2025.03.04-06.50.02:814][733]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,0188 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,0188 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Building WarriorEditor...
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Using Visual Studio 2022 14.43.34808 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Warning: Visual Studio 2022 compiler is not a preferred version
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.03.04-06.50.05:417][733]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 3 action(s)
+[2025.03.04-06.50.05:417][733]CompilerResultsLog:   Storage capacity 40Gb
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: ---- Starting trace: 250304_155004 ----
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: ------ Building 3 action(s) started ------
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: [1/3] Link [x64] UnrealEditor-Warrior-0188.lib
+[2025.03.04-06.50.05:417][733]CompilerResultsLog:    C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-0188.lib ??̺귯?? ??C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-0188.exp ??ü?? ??ϰ????ϴ?
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: [2/3] Link [x64] UnrealEditor-Warrior-0188.dll
+[2025.03.04-06.50.05:417][733]CompilerResultsLog:    ??ü C:\Users\user\Desktop\PRJ_Warrior\Warrior\Binaries\Win64\UnrealEditor-Warrior-0188.exp ????
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: [3/3] WriteMetadata WarriorEditor.target (UBA disabled)
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 2.9kb
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 1.13 seconds
+[2025.03.04-06.50.05:417][733]CompilerResultsLog: Total execution time: 2.31 seconds
+[2025.03.04-06.50.05:417][733]LogMainFrame: MainFrame: Module compiling took 2.644 seconds
+[2025.03.04-06.50.05:437][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.03.04-06.50.06:429][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.03.04-06.50.06:451][733]Display: HotReload took  3.7s.
+[2025.03.04-06.50.06:451][733]Display: Reload/Re-instancing Complete: 1 package changed, 4 classes unchanged
+[2025.03.04-06.50.06:451][733]Warning: HotReload operation took  3.7s.
+[2025.03.04-06.50.06:502][733]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.03.04-06.50.06:930][733]LogHotReload: New module detected: UnrealEditor-Warrior-0188.dll
+[2025.03.04-06.50.06:955][733]LogAutomationController: Ignoring very large delta of 4.26 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.03.04-06.50.06:957][733]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-06.50.07:112][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.03.04-06.50.07:198][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.03.04-06.50.07:243][733]Display: HotReload took  0.3s.
+[2025.03.04-06.50.07:243][733]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.03.04-06.50.26:771][792]LogHotReload: New module detected: UnrealEditor-Warrior-0007.dll
+[2025.03.04-06.50.27:111][793]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-06.50.27:207][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.03.04-06.50.27:915][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.03.04-06.50.27:944][793]Display: HotReload took  0.8s.
+[2025.03.04-06.50.27:944][793]Display: Reload/Re-instancing Complete: 1 package changed, 4 classes unchanged
+[2025.03.04-06.51.44:388][ 23]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: b42...4be
+[2025.03.04-06.51.44:388][ 23]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.92 RefreshExpires: 1.547e+07
+[2025.03.04-06.51.45:388][ 26]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: b42...4be Access[Expires: 2025.03.04-08.51.45 Remaining: 7200.85] Refresh[Expires: 2025-08-30T07:12:47.856Z Remaining: 15466862.86] State: Valid
+[2025.03.04-06.53.47:467][452]Candidate modules for hot reload:
+[2025.03.04-06.53.47:467][452]  Warrior
+[2025.03.04-06.53.47:473][452]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,6129 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.03.04-06.53.47:479][452]Warning: Starting HotReload took  0.0s.
+[2025.03.04-06.53.50:068][483]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,6129 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Building WarriorEditor...
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Using Visual Studio 2022 14.43.34808 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Warning: Visual Studio 2022 compiler is not a preferred version
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.03.04-06.53.50:069][483]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 4 action(s)
+[2025.03.04-06.53.50:069][483]CompilerResultsLog:   Storage capacity 40Gb
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: ---- Starting trace: 250304_155348 ----
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: [1/4] Compile [x64] WarriorGameplayTags.cpp
+[2025.03.04-06.53.50:069][483]CompilerResultsLog: Error: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\WarriorGameplayTags.cpp(9) : error C4430: ???????? ???ϴ? int???????ϴ? ??? C++???????⺻ int?? ??????ʽ?ϴ?
+[2025.03.04-06.53.50:069][484]CompilerResultsLog: Error: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\WarriorGameplayTags.cpp(9) : error C2440: '???? ?': 'initializer list'???? 'int'(?)????ȯ? ?????ϴ?
+[2025.03.04-06.53.50:069][484]CompilerResultsLog: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\WarriorGameplayTags.cpp(9): note: ??ϼȶ??????? ?ʹ? ????ϴ?
+[2025.03.04-06.53.50:069][484]CompilerResultsLog: Error: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\WarriorGameplayTags.cpp(10) : error C2146: ???? ??? ';'?(??) 'UE_DECLARE_GAMEPLAY_TAG' ?ĺ?? ?տ? ???ϴ?
+[2025.03.04-06.53.50:069][484]CompilerResultsLog: Error: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\WarriorGameplayTags.cpp(11) : error C2143: ???? ??? ';'?(??) '}' ?տ? ???ϴ?
+[2025.03.04-06.53.50:069][484]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 3.1kb
+[2025.03.04-06.53.50:069][484]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 1.58 seconds
+[2025.03.04-06.53.50:069][484]CompilerResultsLog: Total execution time: 2.33 seconds
+[2025.03.04-06.53.50:069][484]LogMainFrame: MainFrame: Module compiling took 2.616 seconds
+[2025.03.04-06.53.50:069][484]Warning: HotReload failed, recompile failed
+[2025.03.04-06.54.38:637][133]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7281.917480
+[2025.03.04-06.54.39:637][136]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-06.54.39:637][136]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7282.583496, Update Interval: 303.299652
+[2025.03.04-06.55.11:806][233]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.03.04-06.58.41:183][928]LogSlate: Window '메시지 로그' being destroyed
+[2025.03.04-06.58.41:188][928]LogSlate: Window '메시지 로그' being destroyed
+[2025.03.04-06.58.41:919][971]Candidate modules for hot reload:
+[2025.03.04-06.58.41:919][971]  Warrior
+[2025.03.04-06.58.41:925][971]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,2913 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.03.04-06.58.41:930][971]Warning: Starting HotReload took  0.0s.
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,2913 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Building WarriorEditor...
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Using Visual Studio 2022 14.43.34808 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Warning: Visual Studio 2022 compiler is not a preferred version
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 3 action(s)
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog:   Storage capacity 40Gb
+[2025.03.04-06.58.43:985][ 64]CompilerResultsLog: ---- Starting trace: 250304_155842 ----
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog: ------ Building 3 action(s) started ------
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog: [1/3] Link [x64] UnrealEditor-Warrior-2913.lib
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog:    C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-2913.lib ??̺귯?? ??C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-2913.exp ??ü?? ??ϰ????ϴ?
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog: [2/3] Link [x64] UnrealEditor-Warrior-2913.dll
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog:    ??ü C:\Users\user\Desktop\PRJ_Warrior\Warrior\Binaries\Win64\UnrealEditor-Warrior-2913.exp ????
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog: [3/3] WriteMetadata WarriorEditor.target (UBA disabled)
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 2.9kb
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 1.11 seconds
+[2025.03.04-06.58.43:986][ 64]CompilerResultsLog: Total execution time: 1.77 seconds
+[2025.03.04-06.58.43:986][ 64]LogMainFrame: MainFrame: Module compiling took 2.082 seconds
+[2025.03.04-06.58.44:056][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.03.04-06.58.44:774][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.03.04-06.58.44:793][ 64]Display: HotReload took  2.9s.
+[2025.03.04-06.58.44:793][ 64]Display: Reload/Re-instancing Complete: 1 package changed, 4 classes unchanged
+[2025.03.04-06.58.48:850][176]LogSlate: External Image Picker: DecompressImage failed
+[2025.03.04-06.58.55:498][560]LogSlate: Window '게임플레이 태그 매니저' being destroyed
+[2025.03.04-06.58.56:315][609]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.03.04-06.58.56:320][609]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.03.04-07.00.26:691][917]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7629.974121
+[2025.03.04-07.00.27:693][920]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-07.00.27:693][920]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7630.642090, Update Interval: 355.218964
+[2025.03.04-07.01.01:094][144]Candidate modules for hot reload:
+[2025.03.04-07.01.01:094][144]  Warrior
+[2025.03.04-07.01.01:099][144]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,9449 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,9449 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Invalidating makefile for WarriorEditor (UHT files changed)
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Available x64 toolchains (1):
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:  * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:     (Family=14.43.34808, FamilyRank=1, Version=14.43.34808, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64)
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Unavailable x64 toolchains (1):
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:  * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:     (Family=14.29.30133, FamilyRank=1, Version=14.29.30158, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool requires at minimum the MSVC 14.38.33130 toolchain. Please install a later toolchain such as 14.38.33130 from the Visual Studio installer.")
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Visual Studio 2022 compiler version 14.43.34808 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Parsing headers for WarriorEditor
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:   Running Internal UnrealHeaderTool C:\Users\user\Desktop\PRJ_Warrior\Warrior\Warrior.uproject C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\WarriorEditor\Development\WarriorEditor.uhtmanifest -WarningsAsErrors -installed
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Total of 3 written
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Reflection code generated for WarriorEditor in 1.1661531 seconds
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Building WarriorEditor...
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Using Visual Studio 2022 14.43.34808 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Warning: Visual Studio 2022 compiler is not a preferred version
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 6 action(s)
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:   Storage capacity 40Gb
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: ---- Starting trace: 250304_160104 ----
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: ------ Building 6 action(s) started ------
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: [1/6] Compile [x64] Warrior.init.gen.cpp
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: [2/6] Compile [x64] DataAsset_InputConfig.cpp
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: [3/6] Compile [x64] DataAsset_InputConfig.gen.cpp
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-Warrior-9449.lib
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:    C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-9449.lib ??̺귯?? ??C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-9449.exp ??ü?? ??ϰ????ϴ?
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-Warrior-9449.dll
+[2025.03.04-07.01.07:016][144]CompilerResultsLog:    ??ü C:\Users\user\Desktop\PRJ_Warrior\Warrior\Binaries\Win64\UnrealEditor-Warrior-9449.exp ????
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: [6/6] WriteMetadata WarriorEditor.target (UBA disabled)
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 3.7kb
+[2025.03.04-07.01.07:016][144]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 2.58 seconds
+[2025.03.04-07.01.07:017][144]CompilerResultsLog: Total execution time: 5.73 seconds
+[2025.03.04-07.01.07:017][144]LogMainFrame: MainFrame: Module compiling took 5.933 seconds
+[2025.03.04-07.01.07:103][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.03.04-07.01.07:810][144]LogClass: UPackage /Script/Warrior Reload.
+[2025.03.04-07.01.07:810][144]LogClass: Could not find existing class DataAsset_InputConfig in package /Script/Warrior for reload, assuming new or modified class
+[2025.03.04-07.01.07:958][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.03.04-07.01.07:985][144]Display: HotReload took  6.9s.
+[2025.03.04-07.01.07:986][144]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 4 classes unchanged
+[2025.03.04-07.01.07:986][144]Warning: HotReload operation took  6.9s.
+[2025.03.04-07.01.08:011][144]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.03.04-07.01.08:444][144]LogHotReload: New module detected: UnrealEditor-Warrior-9449.dll
+[2025.03.04-07.01.08:470][144]LogAutomationController: Ignoring very large delta of 7.45 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.03.04-07.01.08:473][144]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.01.08:616][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.03.04-07.01.08:679][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.03.04-07.01.08:722][144]Display: HotReload took  0.2s.
+[2025.03.04-07.01.08:722][144]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.03.04-07.02.49:559][447]LogHotReload: New module detected: UnrealEditor-Warrior-0013.dll
+[2025.03.04-07.02.49:899][448]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.02.49:997][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.03.04-07.02.50:946][448]LogClass: UPackage /Script/Warrior Reload.
+[2025.03.04-07.02.50:947][448]LogClass: UClass DataAsset_InputConfig Reload.
+[2025.03.04-07.02.50:947][448]LogClass: Could not find existing class DataAsset_InputConfig in package /Script/Warrior for reload, assuming new or modified class
+[2025.03.04-07.02.50:965][448]Re-instancing DataAsset_InputConfig after reload.
+[2025.03.04-07.02.51:035][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.03.04-07.02.51:070][448]Display: HotReload took  1.2s.
+[2025.03.04-07.02.51:070][448]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 4 classes unchanged, 1 scriptstruct new, 1 scriptstruct remapped
+[2025.03.04-07.06.13:888][ 57]LogHotReload: New module detected: UnrealEditor-Warrior-0014.dll
+[2025.03.04-07.06.14:560][ 59]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.06.14:661][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.03.04-07.06.15:190][ 59]LogClass: UPackage /Script/Warrior Reload.
+[2025.03.04-07.06.15:190][ 59]LogClass: UScriptStruct WarriorInputActionConfig Reload.
+[2025.03.04-07.06.15:266][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.03.04-07.06.15:296][ 59]Display: HotReload took  0.7s.
+[2025.03.04-07.06.15:296][ 59]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged, 1 scriptstruct changed, 1 scriptstruct remapped
+[2025.03.04-07.07.06:425][213]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8029.698242
+[2025.03.04-07.07.07:424][216]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-07.07.07:425][216]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8030.364258, Update Interval: 319.580078
+[2025.03.04-07.12.58:801][270]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8382.074219
+[2025.03.04-07.12.59:803][273]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-07.12.59:803][273]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8382.743164, Update Interval: 321.286652
+[2025.03.04-07.13.58:473][449]LogHotReload: New module detected: UnrealEditor-Warrior-0015.dll
+[2025.03.04-07.13.58:814][450]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.13.58:919][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.03.04-07.13.59:855][450]LogClass: UPackage /Script/Warrior Reload.
+[2025.03.04-07.13.59:855][450]LogClass: UClass DataAsset_InputConfig Reload.
+[2025.03.04-07.13.59:855][450]LogClass: Could not find existing class DataAsset_InputConfig in package /Script/Warrior for reload, assuming new or modified class
+[2025.03.04-07.13.59:877][450]Re-instancing DataAsset_InputConfig after reload.
+[2025.03.04-07.13.59:965][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.03.04-07.13.59:999][450]Display: HotReload took  1.2s.
+[2025.03.04-07.13.59:999][450]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 4 classes unchanged, 1 scriptstruct unchanged, 1 scriptstruct remapped
+[2025.03.04-07.14.47:721][695]LogSlate: Window '데이터 에셋 인스턴스의 클래스 선택' being destroyed
+[2025.03.04-07.14.47:731][695]LogContentBrowser: Deferred new asset file creation: NewDataAsset
+[2025.03.04-07.14.47:736][695]LogContentBrowser: Creating deferred item: NewDataAsset
+[2025.03.04-07.14.47:740][695]LogAutomationController: Ignoring very large delta of 3.98 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.03.04-07.14.47:748][696]LogContentBrowser: Renaming the item being created (Deferred Item: NewDataAsset).
+[2025.03.04-07.15.03:743][803]LogContentBrowser: Attempting asset rename: NewDataAsset -> NewDataAsset
+[2025.03.04-07.15.03:745][803]LogContentBrowser: End creating deferred item NewDataAsset
+[2025.03.04-07.15.04:788][863]LogWindows: LaunchURL https://docs.unrealengine.com/5.5/ko/BuildingWorlds/LevelEditor?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2025.03.04-07.15.10:521][112]LogContentBrowser: Attempting asset rename: NewDataAsset -> DA_InputConfig
+[2025.03.04-07.15.10:604][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.04-07.15.10:605][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DA_InputConfig] ([1] browsable assets)...
+[2025.03.04-07.15.10:605][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/DA_InputConfig]
+[2025.03.04-07.15.10:605][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DA_InputConfig" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/DA_InputConfig.uasset" SILENT=true
+[2025.03.04-07.15.10:606][112]LogSavePackage: Moving output files for package: /Game/DA_InputConfig
+[2025.03.04-07.15.10:606][112]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/DA_InputConfigE167FE2E4638A61BAC54DD9B88176567.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/DA_InputConfig.uasset'
+[2025.03.04-07.15.10:608][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.955 ms (total: 150.684 ms)
+[2025.03.04-07.15.10:708][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.03.04-07.15.10:748][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.03.04-07.15.10:769][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.03.04-07.15.10:806][112]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.04-07.15.10:806][112]LogContentValidation: Enabled validators:
+[2025.03.04-07.15.10:806][112]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.04-07.15.10:806][112]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.04-07.15.10:806][112]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.04-07.15.10:806][112]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.04-07.15.10:806][112]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.04-07.15.10:806][112]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.04-07.15.10:806][112]AssetCheck: /Game/DA_InputConfig 에셋 유효성 검사 중
+[2025.03.04-07.15.39:890][773]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.04-07.15.39:892][773]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.03.04-07.15.39:892][773]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.03.04-07.15.39:922][773]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.03.04-07.15.39:922][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.03.04-07.15.39:930][773]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.03.04-07.15.39:931][773]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/BP_ThirdPersonCharacterFB855E1D4F1AC7160474C1A3BE3FB30E.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.03.04-07.15.39:932][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Input/IMC_Default] ([1] browsable assets)...
+[2025.03.04-07.15.39:932][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Input/IMC_Default]
+[2025.03.04-07.15.39:932][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Input/IMC_Default" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Input/IMC_Default.uasset" SILENT=true
+[2025.03.04-07.15.39:933][773]LogSavePackage: Moving output files for package: /Game/Assets/Input/IMC_Default
+[2025.03.04-07.15.39:933][773]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IMC_Default9913C11847042FD90FB9E9AB2925243E.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Input/IMC_Default.uasset'
+[2025.03.04-07.15.39:934][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Input/Actions/IA_Move] ([1] browsable assets)...
+[2025.03.04-07.15.39:934][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Input/Actions/IA_Move]
+[2025.03.04-07.15.39:934][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Input/Actions/IA_Move" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Input/Actions/IA_Move.uasset" SILENT=true
+[2025.03.04-07.15.39:936][773]LogSavePackage: Moving output files for package: /Game/Assets/Input/Actions/IA_Move
+[2025.03.04-07.15.39:936][773]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IA_MoveF9AFDBE24C09473A24267E9A1D3CAE66.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Input/Actions/IA_Move.uasset'
+[2025.03.04-07.15.39:938][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Input/Actions/IA_Look] ([1] browsable assets)...
+[2025.03.04-07.15.39:938][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Input/Actions/IA_Look]
+[2025.03.04-07.15.39:938][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Input/Actions/IA_Look" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Input/Actions/IA_Look.uasset" SILENT=true
+[2025.03.04-07.15.39:938][773]LogSavePackage: Moving output files for package: /Game/Assets/Input/Actions/IA_Look
+[2025.03.04-07.15.39:938][773]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IA_Look25FA9CEC4FE2AB4A27C39EA9F804166F.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Input/Actions/IA_Look.uasset'
+[2025.03.04-07.15.39:940][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Input/Actions/IA_Jump] ([1] browsable assets)...
+[2025.03.04-07.15.39:940][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Input/Actions/IA_Jump]
+[2025.03.04-07.15.39:940][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Input/Actions/IA_Jump" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Input/Actions/IA_Jump.uasset" SILENT=true
+[2025.03.04-07.15.39:941][773]LogSavePackage: Moving output files for package: /Game/Assets/Input/Actions/IA_Jump
+[2025.03.04-07.15.39:941][773]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IA_Jump165C5F84482A70ED315385992815827B.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Input/Actions/IA_Jump.uasset'
+[2025.03.04-07.15.39:942][773]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.702 ms (total: 203.387 ms)
+[2025.03.04-07.15.40:003][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.03.04-07.15.40:027][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.03.04-07.15.40:048][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.03.04-07.15.40:089][773]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.03.04-07.15.40:089][773]LogContentValidation: Display: Starting to validate 5 assets
+[2025.03.04-07.15.40:089][773]LogContentValidation: Enabled validators:
+[2025.03.04-07.15.40:089][773]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.04-07.15.40:089][773]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.04-07.15.40:089][773]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.04-07.15.40:089][773]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.04-07.15.40:089][773]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.04-07.15.40:089][773]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.04-07.15.40:089][773]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter 에셋 유효성 검사 중
+[2025.03.04-07.15.40:089][773]AssetCheck: /Game/Assets/Input/IMC_Default 에셋 유효성 검사 중
+[2025.03.04-07.15.40:089][773]AssetCheck: /Game/Assets/Input/Actions/IA_Move 에셋 유효성 검사 중
+[2025.03.04-07.15.40:089][773]AssetCheck: /Game/Assets/Input/Actions/IA_Look 에셋 유효성 검사 중
+[2025.03.04-07.15.40:089][773]AssetCheck: /Game/Assets/Input/Actions/IA_Jump 에셋 유효성 검사 중
+[2025.03.04-07.15.53:147][530]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.04-07.15.53:148][530]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.03.04-07.15.53:165][530]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.03.04-07.15.53:165][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.03.04-07.15.53:173][530]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.03.04-07.15.53:173][530]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/BP_ThirdPersonCharacterA68BD4DF40EC8001A8E2879503C4AE63.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.03.04-07.15.53:174][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_Default] ([1] browsable assets)...
+[2025.03.04-07.15.53:174][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_Default]
+[2025.03.04-07.15.53:174][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/IMC_Default.uasset" SILENT=true
+[2025.03.04-07.15.53:177][530]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2025.03.04-07.15.53:177][530]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IMC_DefaultD940BE80408720F514BB068936B28791.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/IMC_Default.uasset'
+[2025.03.04-07.15.53:179][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_Move] ([1] browsable assets)...
+[2025.03.04-07.15.53:179][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_Move]
+[2025.03.04-07.15.53:179][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_Move" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/Actions/IA_Move.uasset" SILENT=true
+[2025.03.04-07.15.53:179][530]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_Move
+[2025.03.04-07.15.53:179][530]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IA_Move982BD8F44CA749B3FCBB2CADD495578F.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/Actions/IA_Move.uasset'
+[2025.03.04-07.15.53:180][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_Look] ([1] browsable assets)...
+[2025.03.04-07.15.53:180][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_Look]
+[2025.03.04-07.15.53:180][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_Look" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/Actions/IA_Look.uasset" SILENT=true
+[2025.03.04-07.15.53:181][530]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_Look
+[2025.03.04-07.15.53:181][530]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IA_Look5690751D453A30A46D44A58AF920F281.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/Actions/IA_Look.uasset'
+[2025.03.04-07.15.53:182][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_Jump] ([1] browsable assets)...
+[2025.03.04-07.15.53:182][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_Jump]
+[2025.03.04-07.15.53:182][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_Jump" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/Actions/IA_Jump.uasset" SILENT=true
+[2025.03.04-07.15.53:183][530]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_Jump
+[2025.03.04-07.15.53:183][530]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IA_Jump4CE79451436D16B75250B98A496BD4B5.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/Actions/IA_Jump.uasset'
+[2025.03.04-07.15.53:184][530]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.668 ms (total: 240.055 ms)
+[2025.03.04-07.15.53:256][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.03.04-07.15.53:280][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.03.04-07.15.53:300][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.03.04-07.15.53:342][530]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.03.04-07.15.53:342][530]LogContentValidation: Display: Starting to validate 5 assets
+[2025.03.04-07.15.53:342][530]LogContentValidation: Enabled validators:
+[2025.03.04-07.15.53:342][530]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.04-07.15.53:342][530]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.04-07.15.53:342][530]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.04-07.15.53:342][530]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.04-07.15.53:342][530]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.04-07.15.53:342][530]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.04-07.15.53:342][530]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter 에셋 유효성 검사 중
+[2025.03.04-07.15.53:342][530]AssetCheck: /Game/Input/IMC_Default 에셋 유효성 검사 중
+[2025.03.04-07.15.53:343][530]AssetCheck: /Game/Input/Actions/IA_Move 에셋 유효성 검사 중
+[2025.03.04-07.15.53:343][530]AssetCheck: /Game/Input/Actions/IA_Look 에셋 유효성 검사 중
+[2025.03.04-07.15.53:343][530]AssetCheck: /Game/Input/Actions/IA_Jump 에셋 유효성 검사 중
+[2025.03.04-07.16.21:596][288]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2025.03.04-07.16.25:639][508]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.04-07.16.25:673][508]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_Default] ([1] browsable assets)...
+[2025.03.04-07.16.25:673][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_Default]
+[2025.03.04-07.16.25:673][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/IMC_Default.uasset" SILENT=true
+[2025.03.04-07.16.25:675][508]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2025.03.04-07.16.25:675][508]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/IMC_Default67D9EBB744762B2E28B171ACF2BF3EF3.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Input/IMC_Default.uasset'
+[2025.03.04-07.16.25:683][508]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.595 ms (total: 284.650 ms)
+[2025.03.04-07.16.25:715][508]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.04-07.16.25:715][508]LogContentValidation: Enabled validators:
+[2025.03.04-07.16.25:716][508]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.04-07.16.25:716][508]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.04-07.16.25:716][508]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.04-07.16.25:716][508]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.04-07.16.25:716][508]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.04-07.16.25:716][508]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.04-07.16.25:716][508]AssetCheck: /Game/Input/IMC_Default 에셋 유효성 검사 중
+[2025.03.04-07.16.32:199][593]LogSlate: Window 'IMC_Default' being destroyed
+[2025.03.04-07.16.32:205][593]LogSlate: Window 'IMC_Default' being destroyed
+[2025.03.04-07.16.34:200][711]LogAssetEditorSubsystem: Opening Asset editor for DataAsset_InputConfig /Game/DA_InputConfig.DA_InputConfig
+[2025.03.04-07.16.37:001][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.04-07.16.37:032][867]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DA_InputConfig] ([1] browsable assets)...
+[2025.03.04-07.16.37:032][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/DA_InputConfig]
+[2025.03.04-07.16.37:032][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DA_InputConfig" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/DA_InputConfig.uasset" SILENT=true
+[2025.03.04-07.16.37:033][867]LogSavePackage: Moving output files for package: /Game/DA_InputConfig
+[2025.03.04-07.16.37:033][867]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/DA_InputConfigADE0B4FC44557E229CBC2795FCBAC445.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/DA_InputConfig.uasset'
+[2025.03.04-07.16.37:042][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 42.087 ms (total: 326.738 ms)
+[2025.03.04-07.16.37:078][867]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.04-07.16.37:078][867]LogContentValidation: Enabled validators:
+[2025.03.04-07.16.37:078][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.04-07.16.37:078][867]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.04-07.16.37:078][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.04-07.16.37:078][867]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.04-07.16.37:078][867]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.04-07.16.37:078][867]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.04-07.16.37:078][867]AssetCheck: /Game/DA_InputConfig 에셋 유효성 검사 중
+[2025.03.04-07.17.11:120][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.04-07.17.11:151][289]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DA_InputConfig] ([1] browsable assets)...
+[2025.03.04-07.17.11:151][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/DA_InputConfig]
+[2025.03.04-07.17.11:151][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DA_InputConfig" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/DA_InputConfig.uasset" SILENT=true
+[2025.03.04-07.17.11:152][289]LogSavePackage: Moving output files for package: /Game/DA_InputConfig
+[2025.03.04-07.17.11:152][289]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/DA_InputConfigA301DA604DAE961014EA90B8E5E10803.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/DA_InputConfig.uasset'
+[2025.03.04-07.17.11:159][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.590 ms (total: 366.328 ms)
+[2025.03.04-07.17.11:187][289]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.04-07.17.11:187][289]LogContentValidation: Enabled validators:
+[2025.03.04-07.17.11:187][289]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.04-07.17.11:187][289]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.04-07.17.11:187][289]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.04-07.17.11:187][289]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.04-07.17.11:187][289]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.04-07.17.11:187][289]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.04-07.17.11:188][289]AssetCheck: /Game/DA_InputConfig 에셋 유효성 검사 중
+[2025.03.04-07.18.22:280][844]LogSlate: Window 'DA_InputConfig' being destroyed
+[2025.03.04-07.18.22:286][844]LogSlate: Window 'DA_InputConfig' being destroyed
+[2025.03.04-07.18.25:513][ 35]LogHotReload: New module detected: UnrealEditor-Warrior-0016.dll
+[2025.03.04-07.18.26:318][ 45]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.18.26:405][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.03.04-07.18.27:369][ 45]LogClass: UPackage /Script/Warrior Reload.
+[2025.03.04-07.18.27:369][ 45]LogClass: UClass DataAsset_InputConfig Reload.
+[2025.03.04-07.18.27:369][ 45]LogClass: Could not find existing class DataAsset_InputConfig in package /Script/Warrior for reload, assuming new or modified class
+[2025.03.04-07.18.27:396][ 45]Re-instancing DataAsset_InputConfig after reload.
+[2025.03.04-07.18.27:513][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.03.04-07.18.27:553][ 45]Display: HotReload took  1.2s.
+[2025.03.04-07.18.27:553][ 45]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 4 classes unchanged, 1 scriptstruct unchanged, 1 scriptstruct remapped
+[2025.03.04-07.18.29:687][ 73]LogAssetEditorSubsystem: Opening Asset editor for DataAsset_InputConfig /Game/DA_InputConfig.DA_InputConfig
+[2025.03.04-07.19.07:336][384]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8750.582031
+[2025.03.04-07.19.08:336][387]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-07.19.08:336][387]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8751.248047, Update Interval: 334.666595
+[2025.03.04-07.20.27:624][660]LogSlate: Window 'DA_InputConfig' being destroyed
+[2025.03.04-07.20.27:629][660]LogSlate: Window 'DA_InputConfig' being destroyed
+[2025.03.04-07.21.01:943][198]Candidate modules for hot reload:
+[2025.03.04-07.21.01:943][198]  Warrior
+[2025.03.04-07.21.01:949][198]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,3255 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,3255 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Creating makefile for WarriorEditor (.uproject file is newer)
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Available x64 toolchains (1):
+[2025.03.04-07.21.09:524][198]CompilerResultsLog:  * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808
+[2025.03.04-07.21.09:524][198]CompilerResultsLog:     (Family=14.43.34808, FamilyRank=1, Version=14.43.34808, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64)
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Unavailable x64 toolchains (1):
+[2025.03.04-07.21.09:524][198]CompilerResultsLog:  * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133
+[2025.03.04-07.21.09:524][198]CompilerResultsLog:     (Family=14.29.30133, FamilyRank=1, Version=14.29.30158, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error="UnrealBuildTool requires at minimum the MSVC 14.38.33130 toolchain. Please install a later toolchain such as 14.38.33130 from the Visual Studio installer.")
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Visual Studio 2022 compiler version 14.43.34808 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Parsing headers for WarriorEditor
+[2025.03.04-07.21.09:524][198]CompilerResultsLog:   Running Internal UnrealHeaderTool C:\Users\user\Desktop\PRJ_Warrior\Warrior\Warrior.uproject C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\WarriorEditor\Development\WarriorEditor.uhtmanifest -WarningsAsErrors -installed
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Total of 3 written
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Reflection code generated for WarriorEditor in 1.1284224 seconds
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Building WarriorEditor...
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Using Visual Studio 2022 14.43.34808 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Warning: Visual Studio 2022 compiler is not a preferred version
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.03.04-07.21.09:524][198]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 19 action(s)
+[2025.03.04-07.21.09:524][198]CompilerResultsLog:   Storage capacity 40Gb
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: ---- Starting trace: 250304_162105 ----
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: ------ Building 19 action(s) started ------
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [1/19] Compile [x64] Warrior.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [2/19] Compile [x64] PerModuleInline.gen.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [3/19] Compile [x64] Warrior.init.gen.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [4/19] Compile [x64] WarriorGameModeBase.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [5/19] Compile [x64] WarriorBaseCharacter.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [6/19] Compile [x64] WarriorBaseCharacter.gen.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [7/19] Compile [x64] DataAsset_InputConfig.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [8/19] Compile [x64] WarriorGameModeBase.gen.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [9/19] Compile [x64] DataAsset_InputConfig.gen.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [10/19] Compile [x64] WarriorHeroController.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [11/19] Compile [x64] WarriorHeroController.gen.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [12/19] Compile [x64] WarriorHeroCharacter.gen.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [13/19] Compile [x64] WarriorGameplayTags.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [14/19] Compile [x64] WarriorHeroCharacter.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [15/19] Compile [x64] WarriorInputComponent.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [16/19] Compile [x64] WarriorInputComponent.gen.cpp
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [17/19] Link [x64] UnrealEditor-Warrior-3255.lib
+[2025.03.04-07.21.09:524][198]CompilerResultsLog:    C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-3255.lib ??̺귯?? ??C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-3255.exp ??ü?? ??ϰ????ϴ?
+[2025.03.04-07.21.09:524][198]CompilerResultsLog: [18/19] Link [x64] UnrealEditor-Warrior-3255.dll
+[2025.03.04-07.21.09:525][198]CompilerResultsLog:    ??ü C:\Users\user\Desktop\PRJ_Warrior\Warrior\Binaries\Win64\UnrealEditor-Warrior-3255.exp ????
+[2025.03.04-07.21.09:525][198]CompilerResultsLog: [19/19] WriteMetadata WarriorEditor.target (UBA disabled)
+[2025.03.04-07.21.09:525][198]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 6.4kb
+[2025.03.04-07.21.09:525][198]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 4.16 seconds
+[2025.03.04-07.21.09:525][198]CompilerResultsLog: Total execution time: 7.38 seconds
+[2025.03.04-07.21.09:525][198]LogMainFrame: MainFrame: Module compiling took 7.597 seconds
+[2025.03.04-07.21.09:624][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.03.04-07.21.10:350][198]LogClass: UPackage /Script/Warrior Reload.
+[2025.03.04-07.21.10:363][198]LogClass: Could not find existing class WarriorInputComponent in package /Script/Warrior for reload, assuming new or modified class
+[2025.03.04-07.21.10:517][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.03.04-07.21.10:545][198]Display: HotReload took  8.6s.
+[2025.03.04-07.21.10:545][198]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 5 classes unchanged, 1 scriptstruct unchanged, 1 scriptstruct remapped
+[2025.03.04-07.21.10:545][198]Warning: HotReload operation took  8.6s.
+[2025.03.04-07.21.10:596][198]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.03.04-07.21.11:045][198]LogHotReload: New module detected: UnrealEditor-Warrior-3255.dll
+[2025.03.04-07.21.11:068][198]LogAutomationController: Ignoring very large delta of 9.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.03.04-07.21.11:070][198]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.21.11:187][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.03.04-07.21.11:258][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.03.04-07.21.11:301][198]Display: HotReload took  0.2s.
+[2025.03.04-07.21.11:301][198]Display: Reload/Re-instancing Complete: 1 scriptstruct remapped
+[2025.03.04-07.22.09:777][374]LogHotReload: New module detected: UnrealEditor-Warrior-0018.dll
+[2025.03.04-07.22.10:117][375]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.22.10:220][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.03.04-07.22.10:719][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.03.04-07.22.10:753][375]Display: HotReload took  0.6s.
+[2025.03.04-07.22.10:753][375]Display: Reload/Re-instancing Complete: 1 package changed, 6 classes unchanged, 1 scriptstruct unchanged, 1 scriptstruct remapped
+[2025.03.04-07.25.36:918][994]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9140.133789
+[2025.03.04-07.25.37:917][997]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-07.25.37:917][997]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9140.799805, Update Interval: 303.411346
+[2025.03.04-07.31.37:959][ 77]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9501.166992
+[2025.03.04-07.31.38:959][ 80]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-07.31.38:960][ 80]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9501.833008, Update Interval: 322.372498
+[2025.03.04-07.36.30:647][  9]LogHotReload: New module detected: UnrealEditor-Warrior-0001.dll
+[2025.03.04-07.36.31:318][ 11]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.36.31:428][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.03.04-07.36.32:344][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.03.04-07.36.32:378][ 11]Display: HotReload took  1.1s.
+[2025.03.04-07.36.32:379][ 11]Display: Reload/Re-instancing Complete: 1 package changed, 6 classes unchanged, 1 scriptstruct unchanged, 1 scriptstruct remapped
+[2025.03.04-07.37.53:009][473]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9876.208008
+[2025.03.04-07.37.54:010][476]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.04-07.37.54:010][476]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9876.875000, Update Interval: 316.271240
+[2025.03.04-07.38.07:341][516]LogHotReload: New module detected: UnrealEditor-Warrior-0002.dll
+[2025.03.04-07.38.07:682][517]LogHotReload: Starting Hot-Reload from IDE
+[2025.03.04-07.38.07:814][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.03.04-07.38.08:821][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.03.04-07.38.08:865][517]Display: HotReload took  1.2s.
+[2025.03.04-07.38.08:865][517]Display: Reload/Re-instancing Complete: 1 package changed, 6 classes unchanged, 1 scriptstruct unchanged, 1 scriptstruct remapped
+[2025.03.04-07.38.16:895][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
