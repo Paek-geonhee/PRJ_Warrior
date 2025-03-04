@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\user\\Desktop\\Warrior\\Source\\Warrior\\Warrior.Build.cs",
-		"C:\\Users\\user\\Desktop\\Warrior\\Source\\Warrior.Target.cs",
-		"C:\\Users\\user\\Desktop\\Warrior\\Source\\WarriorEditor.Target.cs"
+		"C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior\\Warrior.Build.cs",
+		"C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior.Target.cs",
+		"C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\WarriorEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.3"
 }

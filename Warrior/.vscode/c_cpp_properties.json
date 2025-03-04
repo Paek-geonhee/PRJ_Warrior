@@ -6,7 +6,7 @@
 			"cStandard": "c17",
 			"cppStandard": "c++20",
 			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "C:\\Users\\user\\Desktop\\Warrior\\.vscode\\compileCommands_Warrior.json"
+			"compileCommands": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Warrior.json"
 		},
 		{
 			"name": "Win32",
@@ -14,7 +14,7 @@
 			"cStandard": "c17",
 			"cppStandard": "c++20",
 			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "C:\\Users\\user\\Desktop\\Warrior\\.vscode\\compileCommands_Default.json"
+			"compileCommands": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Default.json"
 		}
 	]
 }

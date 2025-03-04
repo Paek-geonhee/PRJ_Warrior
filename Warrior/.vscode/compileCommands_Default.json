@@ -1,25 +1,57 @@
 [
 	{
-		"file": "C:\\Users\\user\\Desktop\\Warrior\\Source\\Warrior\\Warrior.Build.cs",
+		"file": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior\\Characters\\WarriorBaseCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\user\\Desktop\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
+			"@C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\user\\Desktop\\Warrior\\Source\\Warrior\\Warrior.cpp",
+		"file": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior\\Characters\\WarriorBaseCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\user\\Desktop\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
+			"@C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\user\\Desktop\\Warrior\\Source\\Warrior\\Warrior.h",
+		"file": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior\\Private\\WarriorGameModeBase.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\user\\Desktop\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
+			"@C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior\\Public\\WarriorGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior\\Warrior.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior\\Warrior.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\Source\\Warrior\\Warrior.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\user\\Desktop\\PRJ_Warrior\\Warrior\\.vscode\\compileCommands_Default\\Warrior.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	}
