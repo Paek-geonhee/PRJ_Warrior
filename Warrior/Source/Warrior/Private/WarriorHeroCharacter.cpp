@@ -1,23 +1,25 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "WarriorHeroCharacter.h"
+#include "Character/WarriorHeroCharacter.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "DataAsset_InputConfig.h"
-#include "WarriorInputComponent.h"
-#include "WarriorGameplayTags.h"
+#include "Character/Input/DataAsset_InputConfig.h"
+#include "Character/Input/WarriorInputComponent.h"
+#include "Character/Input/WarriorGameplayTags.h"
+#include "AbilitySystem/WarriorAttributeSet.h"
+#include "AbilitySystem/WarriorAbilitySystemComponent.h"
 
 #include "WarriorDebugHelper.h"
+
+
 
 void AWarriorHeroCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
-    Debug::Print(TEXT("Working"));
 }
 AWarriorHeroCharacter::AWarriorHeroCharacter()
 {
@@ -63,24 +65,7 @@ void AWarriorHeroCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
     WarrriorInputComponent->BindNativeInputAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Look, ETriggerEvent::Triggered, this, &ThisClass::Input_Look);
 }
 
-// void AWarriorHeroCharacter::Input_Move(const FInputActionValue& InputActionValue)
-// {
-//     // 입력에 따른 X, Y 값의 여부 및 정도를 확인하고 회전 방향에 대한 전방 벡터를 기준으로 캐릭터를 움직이게 함.
-// 	const FVector2D MovementVector = InputActionValue.Get<FVector2D>();
-//     const FRotator MovementRotation(0.f, Controller->GetControlRotation().Yaw, 0.f);
 
-//     if(MovementVector.Y != 0.f)
-//     {
-//         const FVector ForwardDirection = MovementRotation.RotateVector(FVector::ForwardVector);
-//         AddMovementInput(ForwardDirection, MovementVector.Y);
-//     }
-
-//     if(MovementVector.X != 0.f)
-//     {
-//         const FVector RightDirection = MovementRotation.RotateVector(FVector::RightVector);
-//         AddMovementInput(RightDirection, MovementVector.X);
-//     }
-// }
 void AWarriorHeroCharacter::Input_Move(const FInputActionValue& InputActionValue)
 {	
 	const FVector2D MovementVector = InputActionValue.Get<FVector2D>();
@@ -113,4 +98,15 @@ void AWarriorHeroCharacter::Input_Look(const FInputActionValue& InputActionValue
     {
         AddControllerPitchInput(LookAxisVector.Y);
     }
+}
+
+void AWarriorHeroCharacter::PossessedBy(AController* NewController)
+{
+	Super::PossessedBy(NewController);
+
+	if (WarriorAttributeSet && WarriorAbilitySystemComponent) {
+		const FString ASCTEXT = FString::Printf(TEXT("Owner Actor : %s, Avatar Actor : %s"), *WarriorAbilitySystemComponent->GetOwnerActor()->GetActorLabel(), *WarriorAbilitySystemComponent->GetAvatarActor()->GetActorLabel());
+		Debug::Print(TEXT("Warrior Ability System is Valid") + ASCTEXT, FColor::Green);
+		Debug::Print(TEXT("Warrior Attribute Set is Valid"), FColor::Green);
+	}
 }

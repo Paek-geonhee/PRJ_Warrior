@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Warrior/Public/WarriorHeroCharacter.h"
+#include "Warrior/Public/Character/WarriorHeroCharacter.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeWarriorHeroCharacter() {}
 
@@ -36,25 +36,25 @@ struct Z_Construct_UClass_AWarriorHeroCharacter_Statics
 		{ "Comment", "/**\n * \n */" },
 #endif
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "WarriorHeroCharacter.h" },
-		{ "ModuleRelativePath", "Public/WarriorHeroCharacter.h" },
+		{ "IncludePath", "Character/WarriorHeroCharacter.h" },
+		{ "ModuleRelativePath", "Public/Character/WarriorHeroCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/WarriorHeroCharacter.h" },
+		{ "ModuleRelativePath", "Public/Character/WarriorHeroCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/WarriorHeroCharacter.h" },
+		{ "ModuleRelativePath", "Public/Character/WarriorHeroCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InputConfigDataAsset_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "CharacterData" },
-		{ "ModuleRelativePath", "Public/WarriorHeroCharacter.h" },
+		{ "ModuleRelativePath", "Public/Character/WarriorHeroCharacter.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
@@ -113,14 +113,14 @@ AWarriorHeroCharacter::~AWarriorHeroCharacter() {}
 // End Class AWarriorHeroCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorHeroCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_WarriorHeroCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AWarriorHeroCharacter, AWarriorHeroCharacter::StaticClass, TEXT("AWarriorHeroCharacter"), &Z_Registration_Info_UClass_AWarriorHeroCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWarriorHeroCharacter), 3452261486U) },
+		{ Z_Construct_UClass_AWarriorHeroCharacter, AWarriorHeroCharacter::StaticClass, TEXT("AWarriorHeroCharacter"), &Z_Registration_Info_UClass_AWarriorHeroCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWarriorHeroCharacter), 993975638U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorHeroCharacter_h_1690551347(TEXT("/Script/Warrior"),
-	Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorHeroCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorHeroCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_WarriorHeroCharacter_h_4232895058(TEXT("/Script/Warrior"),
+	Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_WarriorHeroCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_WarriorHeroCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

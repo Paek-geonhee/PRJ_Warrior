@@ -6,7 +6,7 @@
         "PCH": "c:\\users\\user\\desktop\\prj_warrior\\warrior\\intermediate\\build\\win64\\x64\\warrioreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "c:\\users\\user\\desktop\\prj_warrior\\warrior\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\warrior\\definitions.warrior.h",
-            "c:\\users\\user\\desktop\\prj_warrior\\warrior\\source\\warrior\\public\\warriorherocontroller.h",
+            "c:\\users\\user\\desktop\\prj_warrior\\warrior\\source\\warrior\\public\\character\\input\\warriorherocontroller.h",
             "c:\\users\\user\\desktop\\prj_warrior\\warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\warrior\\uht\\warriorherocontroller.generated.h"
         ],
         "ImportedModules": [],

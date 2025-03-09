@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "DataAsset_InputConfig.h"
+// IWYU pragma: private, include "Character/Input/DataAsset_InputConfig.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,14 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define WARRIOR_DataAsset_InputConfig_generated_h
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_DataAsset_InputConfig_h_16_GENERATED_BODY \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Input_DataAsset_InputConfig_h_16_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FWarriorInputActionConfig_Statics; \
 	WARRIOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> WARRIOR_API UScriptStruct* StaticStruct<struct FWarriorInputActionConfig>();
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_DataAsset_InputConfig_h_29_INCLASS_NO_PURE_DECLS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Input_DataAsset_InputConfig_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDataAsset_InputConfig(); \
 	friend struct Z_Construct_UClass_UDataAsset_InputConfig_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UDataAsset_InputConfig)
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_DataAsset_InputConfig_h_29_ENHANCED_CONSTRUCTORS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Input_DataAsset_InputConfig_h_29_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDataAsset_InputConfig(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -44,12 +44,12 @@ public: \
 	NO_API virtual ~UDataAsset_InputConfig();
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_DataAsset_InputConfig_h_26_PROLOG
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_DataAsset_InputConfig_h_29_GENERATED_BODY \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Input_DataAsset_InputConfig_h_26_PROLOG
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Input_DataAsset_InputConfig_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_DataAsset_InputConfig_h_29_INCLASS_NO_PURE_DECLS \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_DataAsset_InputConfig_h_29_ENHANCED_CONSTRUCTORS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Input_DataAsset_InputConfig_h_29_INCLASS_NO_PURE_DECLS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Input_DataAsset_InputConfig_h_29_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,7 +57,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> WARRIOR_API UClass* StaticClass<class UDataAsset_InputConfig>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_DataAsset_InputConfig_h
+#define CURRENT_FILE_ID FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Input_DataAsset_InputConfig_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

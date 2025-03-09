@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Warrior/Public/WarriorGameModeBase.h"
+#include "Warrior/Public/GameMode/WarriorGameModeBase.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeWarriorGameModeBase() {}
 
@@ -33,8 +33,8 @@ struct Z_Construct_UClass_AWarriorGameModeBase_Statics
 		{ "Comment", "/**\n * \n */" },
 #endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
-		{ "IncludePath", "WarriorGameModeBase.h" },
-		{ "ModuleRelativePath", "Public/WarriorGameModeBase.h" },
+		{ "IncludePath", "GameMode/WarriorGameModeBase.h" },
+		{ "ModuleRelativePath", "Public/GameMode/WarriorGameModeBase.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif // WITH_METADATA
@@ -82,14 +82,14 @@ AWarriorGameModeBase::~AWarriorGameModeBase() {}
 // End Class AWarriorGameModeBase
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorGameModeBase_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_GameMode_WarriorGameModeBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AWarriorGameModeBase, AWarriorGameModeBase::StaticClass, TEXT("AWarriorGameModeBase"), &Z_Registration_Info_UClass_AWarriorGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWarriorGameModeBase), 3675622286U) },
+		{ Z_Construct_UClass_AWarriorGameModeBase, AWarriorGameModeBase::StaticClass, TEXT("AWarriorGameModeBase"), &Z_Registration_Info_UClass_AWarriorGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWarriorGameModeBase), 3161968928U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorGameModeBase_h_361178358(TEXT("/Script/Warrior"),
-	Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorGameModeBase_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_GameMode_WarriorGameModeBase_h_3761603166(TEXT("/Script/Warrior"),
+	Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_GameMode_WarriorGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_GameMode_WarriorGameModeBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

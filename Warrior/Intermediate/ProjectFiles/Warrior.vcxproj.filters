@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Warrior.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Warrior.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WarriorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Warrior.code-workspace" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Warrior">
+      <UniqueIdentifier>{05E3B220-8BAB-39A8-AD60-A89788CC6824}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Warrior\Warrior.Build.cs">
+      <Filter>Source\Warrior</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Warrior\Warrior.cpp">
+      <Filter>Source\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Warrior.h">
+      <Filter>Source\Warrior</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Private">
+      <UniqueIdentifier>{E6681345-5F17-340B-AEDF-C61B082F26C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Private\DataAsset_InputConfig.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorBaseAnimInstance.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorBaseCharacter.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorCharacterAnimInstance.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorGameModeBase.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorGameplayTags.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorHeroAnimInstance.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorHeroCharacter.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorHeroController.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorHeroLinkedAnimLayer.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\WarriorInputComponent.cpp">
+      <Filter>Source\Warrior\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Private\AbilitySystem">
+      <UniqueIdentifier>{8B91AC25-1BA8-37C9-BF60-A65BA459D3D2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Private\AbilitySystem\WarriorAbilitySystemComponent.cpp">
+      <Filter>Source\Warrior\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\AbilitySystem\WarriorAttributeSet.cpp">
+      <Filter>Source\Warrior\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Private\AbilitySystem\Abilities">
+      <UniqueIdentifier>{F1AAEC36-8D99-3B4E-9B75-F663FA310F2B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Private\AbilitySystem\Abilities\WarriorGameplayAbility.cpp">
+      <Filter>Source\Warrior\Private\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Private\Items">
+      <UniqueIdentifier>{7E912935-5489-38C9-8827-162368068E94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Warrior\Private\Items\Weapon">
+      <UniqueIdentifier>{441A005F-C850-31B1-B3F7-4A6E9BC9A120}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Private\Items\Weapon\WarriorHeroWeapon.cpp">
+      <Filter>Source\Warrior\Private\Items\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\Items\Weapon\WarriorWeaponBase.cpp">
+      <Filter>Source\Warrior\Private\Items\Weapon</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public">
+      <UniqueIdentifier>{BCFCC6DC-7E76-37B0-98D2-C6FE729328D4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\WarriorDebugHelper.h">
+      <Filter>Source\Warrior\Public</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\AbilitySystem">
+      <UniqueIdentifier>{1F66A89A-AEF5-325B-9F9F-9D0F84C3C061}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\AbilitySystem\WarriorAbilitySystemComponent.h">
+      <Filter>Source\Warrior\Public\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\AbilitySystem\WarriorAttributeSet.h">
+      <Filter>Source\Warrior\Public\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\AbilitySystem\Abilities">
+      <UniqueIdentifier>{139FEC8F-6864-3A6A-9615-1F8783976B9A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\AbilitySystem\Abilities\WarriorGameplayAbility.h">
+      <Filter>Source\Warrior\Public\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\Anim">
+      <UniqueIdentifier>{427D8700-3F66-3F16-838F-8C366AAEB890}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\Anim\WarriorBaseAnimInstance.h">
+      <Filter>Source\Warrior\Public\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\Anim\WarriorCharacterAnimInstance.h">
+      <Filter>Source\Warrior\Public\Anim</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\Anim\Hero">
+      <UniqueIdentifier>{EB424463-582B-31E1-B97B-DB001A88BADE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\Anim\Hero\WarriorHeroAnimInstance.h">
+      <Filter>Source\Warrior\Public\Anim\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\Anim\Hero\WarriorHeroLinkedAnimLayer.h">
+      <Filter>Source\Warrior\Public\Anim\Hero</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\Character">
+      <UniqueIdentifier>{E7A6C230-A599-3BBD-9FC0-0B0485AB1005}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\Character\WarriorBaseCharacter.h">
+      <Filter>Source\Warrior\Public\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\Character\WarriorHeroCharacter.h">
+      <Filter>Source\Warrior\Public\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\Character\Input">
+      <UniqueIdentifier>{6D984A4F-B01A-3D5A-B882-7AF687CD246C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\Character\Input\DataAsset_InputConfig.h">
+      <Filter>Source\Warrior\Public\Character\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\Character\Input\WarriorGameplayTags.h">
+      <Filter>Source\Warrior\Public\Character\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\Character\Input\WarriorHeroController.h">
+      <Filter>Source\Warrior\Public\Character\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\Character\Input\WarriorInputComponent.h">
+      <Filter>Source\Warrior\Public\Character\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\GameMode">
+      <UniqueIdentifier>{608E7B54-137D-307E-8B12-30CE7DB1A823}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\GameMode\WarriorGameModeBase.h">
+      <Filter>Source\Warrior\Public\GameMode</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\Items">
+      <UniqueIdentifier>{6DD88F64-AD61-3FD2-A571-CBD6D8CCD7C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Warrior\Public\Items\Weapon">
+      <UniqueIdentifier>{62E32B7A-9C36-3275-9B5D-F402B8D35F1A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\Items\Weapon\WarriorHeroWeapon.h">
+      <Filter>Source\Warrior\Public\Items\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\Items\Weapon\WarriorWeaponBase.h">
+      <Filter>Source\Warrior\Public\Items\Weapon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
