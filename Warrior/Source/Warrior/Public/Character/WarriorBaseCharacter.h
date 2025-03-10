@@ -9,6 +9,7 @@
 
 class UWarriorAbilitySystemComponent;
 class UWarriorAttributeSet;
+class UDataAsset_StartUpDatabase;
 
 UCLASS()
 class WARRIOR_API AWarriorBaseCharacter : public ACharacter, public IAbilitySystemInterface
@@ -33,6 +34,11 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AbilitySystem")
 	UWarriorAttributeSet* WarriorAttributeSet;
+
+	// 엔티티가 가져야하는 게임플레이 능력의 종류
+	// Given 어빌리티와 Trigger 어빌리티가 들어있고, 이들에 대한 초기화 및 부여 기능을 가진 에셋
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "CharacterData")
+	TSoftObjectPtr<UDataAsset_StartUpDatabase> CharacterStartUpData;
 
 public:
 	FORCEINLINE UWarriorAbilitySystemComponent* GetWarriorAbilitySystemComponent() const {return WarriorAbilitySystemComponent;}

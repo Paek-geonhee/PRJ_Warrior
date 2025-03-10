@@ -92,6 +92,18 @@
     <ClCompile Include="..\..\Source\Warrior\Private\AbilitySystem\Abilities\WarriorGameplayAbility.cpp">
       <Filter>Source\Warrior\Private\AbilitySystem\Abilities</Filter>
     </ClCompile>
+    <Filter Include="Source\Warrior\Private\DataAssets">
+      <UniqueIdentifier>{ABB22B1D-FACF-3493-B143-4301FF2B4DA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Warrior\Private\DataAssets\StartUpData">
+      <UniqueIdentifier>{8E7DB0BA-589F-395D-90BB-837D5F33BA4F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Private\DataAssets\StartUpData\DataAsset_HeroStartUpData.cpp">
+      <Filter>Source\Warrior\Private\DataAssets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Private\DataAssets\StartUpData\DataAsset_StartUpDatabase.cpp">
+      <Filter>Source\Warrior\Private\DataAssets\StartUpData</Filter>
+    </ClCompile>
     <Filter Include="Source\Warrior\Private\Items">
       <UniqueIdentifier>{7E912935-5489-38C9-8827-162368068E94}</UniqueIdentifier>
     </Filter>
@@ -166,6 +178,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Warrior\Public\Character\Input\WarriorInputComponent.h">
       <Filter>Source\Warrior\Public\Character\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\DataAssets">
+      <UniqueIdentifier>{B9C2672E-C3F8-336D-9D7E-B6C407E4A0FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Warrior\Public\DataAssets\StartUpData">
+      <UniqueIdentifier>{0F9D9C86-820C-3055-AA0C-3B5D7C50C905}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\DataAssets\StartUpData\DataAsset_HeroStartUpData.h">
+      <Filter>Source\Warrior\Public\DataAssets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\DataAssets\StartUpData\DataAsset_StartUpDatabase.h">
+      <Filter>Source\Warrior\Public\DataAssets\StartUpData</Filter>
     </ClCompile>
     <Filter Include="Source\Warrior\Public\GameMode">
       <UniqueIdentifier>{608E7B54-137D-307E-8B12-30CE7DB1A823}</UniqueIdentifier>

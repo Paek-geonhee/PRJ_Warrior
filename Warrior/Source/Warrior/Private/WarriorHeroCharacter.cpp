@@ -12,6 +12,7 @@
 #include "Character/Input/WarriorGameplayTags.h"
 #include "AbilitySystem/WarriorAttributeSet.h"
 #include "AbilitySystem/WarriorAbilitySystemComponent.h"
+#include "DataAssets/StartUpData/DataAsset_StartUpDatabase.h"
 
 #include "WarriorDebugHelper.h"
 
@@ -104,9 +105,13 @@ void AWarriorHeroCharacter::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
 
-	if (WarriorAttributeSet && WarriorAbilitySystemComponent) {
-		const FString ASCTEXT = FString::Printf(TEXT("Owner Actor : %s, Avatar Actor : %s"), *WarriorAbilitySystemComponent->GetOwnerActor()->GetActorLabel(), *WarriorAbilitySystemComponent->GetAvatarActor()->GetActorLabel());
-		Debug::Print(TEXT("Warrior Ability System is Valid") + ASCTEXT, FColor::Green);
-		Debug::Print(TEXT("Warrior Attribute Set is Valid"), FColor::Green);
+	// 소프트 레퍼런스를 사용하는 해당 코드의 경우
+	// IsValid를 사용하기 위해선, 데이터가 로드된 상태에서 유효한 데이터가 로드 되었는지를 확인하는 것.
+	// 최초 상태에서는 로드가 아직 진행되지 않았기 때문에, 유효한 데이터를 검사하는 게 아닌 로드 여부를 검사
+	if (!CharacterStartUpData.IsNull()) {
+		// 스타트업 데이터가 있는 경우
+		if (UDataAsset_StartUpDatabase* LoadedData = CharacterStartUpData.LoadSynchronous()) {
+			LoadedData->GiveToAbilitySystemComponent(WarriorAbilitySystemComponent);
+		}
 	}
 }
