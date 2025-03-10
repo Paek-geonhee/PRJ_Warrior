@@ -2,8 +2,11 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Warrior.cpp.obj": [
+			"DataAsset_HeroStartUpData.gen.cpp.obj",
 			"DataAsset_InputConfig.gen.cpp.obj",
 			"DataAsset_StartUpDatabase.gen.cpp.obj",
+			"PawnCombatComponent.gen.cpp.obj",
+			"PawnExtensionComponentBase.gen.cpp.obj",
 			"Warrior.init.gen.cpp.obj",
 			"WarriorAbilitySystemComponent.gen.cpp.obj",
 			"WarriorAttributeSet.gen.cpp.obj",
@@ -23,6 +26,9 @@
 			"WarriorGameplayAbility.cpp.obj",
 			"WarriorAbilitySystemComponent.cpp.obj",
 			"WarriorAttributeSet.cpp.obj",
+			"PawnCombatComponent.cpp.obj",
+			"PawnExtensionComponentBase.cpp.obj",
+			"DataAsset_HeroStartUpData.cpp.obj",
 			"DataAsset_StartUpDatabase.cpp.obj",
 			"DataAsset_InputConfig.cpp.obj",
 			"WarriorHeroWeapon.cpp.obj",
