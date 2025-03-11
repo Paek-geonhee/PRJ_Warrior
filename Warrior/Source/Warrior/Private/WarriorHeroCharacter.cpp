@@ -68,6 +68,8 @@ void AWarriorHeroCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
     // 인풋 함수를 바인딩하는 과정.
     WarrriorInputComponent->BindNativeInputAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Move, ETriggerEvent::Triggered, this, &ThisClass::Input_Move);
     WarrriorInputComponent->BindNativeInputAction(InputConfigDataAsset, WarriorGameplayTags::InputTag_Look, ETriggerEvent::Triggered, this, &ThisClass::Input_Look);
+
+	WarrriorInputComponent->BindAbilityInputAction(InputConfigDataAsset, this, &ThisClass::Input_AbilityInputPressed, &ThisClass::Input_AbilityInputReleased);
 }
 
 
@@ -104,6 +106,17 @@ void AWarriorHeroCharacter::Input_Look(const FInputActionValue& InputActionValue
         AddControllerPitchInput(LookAxisVector.Y);
     }
 }
+
+void AWarriorHeroCharacter::Input_AbilityInputPressed(FGameplayTag InputTag)
+{
+	WarriorAbilitySystemComponent->OnAbilityInputPressed(InputTag);
+}
+
+void AWarriorHeroCharacter::Input_AbilityInputReleased(FGameplayTag InputTag)
+{
+	WarriorAbilitySystemComponent->OnAbilityInputReleased(InputTag);
+}
+
 
 void AWarriorHeroCharacter::PossessedBy(AController* NewController)
 {

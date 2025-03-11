@@ -574,6 +574,9 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\enumproperty.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\fieldpathproperty.h",
             "c:\\users\\user\\desktop\\prj_warrior\\warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\warrior\\uht\\dataasset_startupdatabase.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
             "c:\\users\\user\\desktop\\prj_warrior\\warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\warrior\\uht\\dataasset_herostartupdata.generated.h"
         ],
         "ImportedModules": [],

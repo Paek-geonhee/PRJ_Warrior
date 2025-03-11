@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WarriorModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e735271123907575c964c30d143a1cc3046b1156")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46e746c14df24de1a1fc5fe86f5f73ee2ec75e1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WarriorModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WarriorModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

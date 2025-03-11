@@ -14,4 +14,7 @@ class WARRIOR_API UWarriorAbilitySystemComponent : public UAbilitySystemComponen
 {
 	GENERATED_BODY()
 	
+public:
+	void OnAbilityInputPressed(FGameplayTag InputTag);
+	void OnAbilityInputReleased(FGameplayTag InputTag);
 };
