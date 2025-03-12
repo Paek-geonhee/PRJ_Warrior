@@ -23,6 +23,7 @@
 			"WarriorHeroLinkedAnimLayer.gen.cpp.obj",
 			"WarriorHeroWeapon.gen.cpp.obj",
 			"WarriorInputComponent.gen.cpp.obj",
+			"WarriorStructTypes.gen.cpp.obj",
 			"WarriorWeaponBase.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"WarriorGameplayAbility.cpp.obj",
@@ -47,6 +48,7 @@
 			"WarriorHeroController.cpp.obj",
 			"WarriorHeroLinkedAnimLayer.cpp.obj",
 			"WarriorInputComponent.cpp.obj",
+			"WarriorStructTypes.cpp.obj",
 			"Warrior.cpp.obj"
 		]
 	}

@@ -17,17 +17,17 @@ class WARRIOR_API UPawnCombatComponent : public UPawnExtensionComponentBase
 {
 	GENERATED_BODY()
 public:
-	UFUNCTION(BlueprintCallable, Category ="WarriorCombat")
+	UFUNCTION(BlueprintCallable, Category ="Warrior|Combat")
 	void RegisterSpawnedWeapon(FGameplayTag InWeaponTagToRegister, AWarriorWeaponBase* InWeaponToRegister, bool bRegisterAsEquippedWeapon = false);
 	// 특정 태그로 스폰된 무기를 컨테이너에 등록. 이때, 등록 즉시 장착할 지 여부를 정해야 함.
 
-	UFUNCTION(BlueprintCallable, Category = "WarriorCombat")
+	UFUNCTION(BlueprintCallable, Category = "Warrior|Combat")
 	AWarriorWeaponBase* GetCharacterCarriedWeaponByTag(FGameplayTag InWeaponTagToGet) const;
 
-	UPROPERTY(BlueprintReadWrite, Category = "WarriorCombat")
+	UPROPERTY(BlueprintReadWrite, Category = "Warrior|Combat")
 	FGameplayTag CurruentEquippedWeaponTag;
 
-	UFUNCTION(BlueprintCallable, Category = "WarriorCombat")
+	UFUNCTION(BlueprintCallable, Category = "Warrior|Combat")
 	AWarriorWeaponBase* GetCurrentEquippedWeapon() const;
 
 

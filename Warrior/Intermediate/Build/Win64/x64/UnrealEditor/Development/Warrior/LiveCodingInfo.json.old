@@ -19,12 +19,14 @@
 			"WarriorHeroAnimInstance.gen.cpp.obj",
 			"WarriorHeroCharacter.gen.cpp.obj",
 			"WarriorHeroController.gen.cpp.obj",
+			"WarriorHeroGameplayAbility.gen.cpp.obj",
 			"WarriorHeroLinkedAnimLayer.gen.cpp.obj",
 			"WarriorHeroWeapon.gen.cpp.obj",
 			"WarriorInputComponent.gen.cpp.obj",
 			"WarriorWeaponBase.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"WarriorGameplayAbility.cpp.obj",
+			"WarriorHeroGameplayAbility.cpp.obj",
 			"WarriorAbilitySystemComponent.cpp.obj",
 			"WarriorAttributeSet.cpp.obj",
 			"HeroCombatComponent.cpp.obj",
@@ -45,6 +47,7 @@
 			"WarriorHeroController.cpp.obj",
 			"WarriorHeroLinkedAnimLayer.cpp.obj",
 			"WarriorInputComponent.cpp.obj",
+			"WarriorStructTypes.cpp.obj",
 			"Warrior.cpp.obj"
 		]
 	}

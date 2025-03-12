@@ -20,6 +20,7 @@
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Intermediate/Build/Win64/UnrealEditor/Inc/Warrior/UHT/WarriorHeroLinkedAnimLayer.gen.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Intermediate/Build/Win64/UnrealEditor/Inc/Warrior/UHT/WarriorHeroWeapon.gen.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Intermediate/Build/Win64/UnrealEditor/Inc/Warrior/UHT/WarriorInputComponent.gen.cpp"
+#include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Intermediate/Build/Win64/UnrealEditor/Inc/Warrior/UHT/WarriorStructTypes.gen.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Intermediate/Build/Win64/UnrealEditor/Inc/Warrior/UHT/WarriorWeaponBase.gen.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Intermediate/Build/Win64/x64/UnrealEditor/Development/Warrior/PerModuleInline.gen.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/AbilitySystem/Abilities/WarriorGameplayAbility.cpp"
@@ -44,4 +45,5 @@
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/WarriorHeroController.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/WarriorHeroLinkedAnimLayer.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/WarriorInputComponent.cpp"
+#include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/WarriorTypes/WarriorStructTypes.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Warrior.cpp"

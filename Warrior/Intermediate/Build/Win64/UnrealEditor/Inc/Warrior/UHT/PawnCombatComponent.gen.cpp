@@ -29,7 +29,7 @@ struct Z_Construct_UFunction_UPawnCombatComponent_GetCharacterCarriedWeaponByTag
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "WarriorCombat" },
+		{ "Category", "Warrior|Combat" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// \xc6\xaf\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xc2\xb1\xd7\xb7\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xe2\xb8\xa6 \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xcc\xb3\xca\xbf\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd. \xef\xbf\xbd\xcc\xb6\xef\xbf\xbd, \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xce\xb8\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xd8\xbe\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd.\n" },
 #endif
@@ -81,7 +81,7 @@ struct Z_Construct_UFunction_UPawnCombatComponent_GetCurrentEquippedWeapon_Stati
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "WarriorCombat" },
+		{ "Category", "Warrior|Combat" },
 		{ "ModuleRelativePath", "Public/Character/Components/Combat/PawnCombatComponent.h" },
 	};
 #endif // WITH_METADATA
@@ -125,7 +125,7 @@ struct Z_Construct_UFunction_UPawnCombatComponent_RegisterSpawnedWeapon_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "WarriorCombat" },
+		{ "Category", "Warrior|Combat" },
 		{ "CPP_Default_bRegisterAsEquippedWeapon", "false" },
 		{ "ModuleRelativePath", "Public/Character/Components/Combat/PawnCombatComponent.h" },
 	};
@@ -200,7 +200,7 @@ struct Z_Construct_UClass_UPawnCombatComponent_Statics
 		{ "ModuleRelativePath", "Public/Character/Components/Combat/PawnCombatComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CurruentEquippedWeaponTag_MetaData[] = {
-		{ "Category", "WarriorCombat" },
+		{ "Category", "Warrior|Combat" },
 		{ "ModuleRelativePath", "Public/Character/Components/Combat/PawnCombatComponent.h" },
 	};
 #endif // WITH_METADATA
@@ -208,9 +208,9 @@ struct Z_Construct_UClass_UPawnCombatComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UPawnCombatComponent_GetCharacterCarriedWeaponByTag, "GetCharacterCarriedWeaponByTag" }, // 683348728
-		{ &Z_Construct_UFunction_UPawnCombatComponent_GetCurrentEquippedWeapon, "GetCurrentEquippedWeapon" }, // 149909469
-		{ &Z_Construct_UFunction_UPawnCombatComponent_RegisterSpawnedWeapon, "RegisterSpawnedWeapon" }, // 1981570173
+		{ &Z_Construct_UFunction_UPawnCombatComponent_GetCharacterCarriedWeaponByTag, "GetCharacterCarriedWeaponByTag" }, // 1279812574
+		{ &Z_Construct_UFunction_UPawnCombatComponent_GetCurrentEquippedWeapon, "GetCurrentEquippedWeapon" }, // 3539991973
+		{ &Z_Construct_UFunction_UPawnCombatComponent_RegisterSpawnedWeapon, "RegisterSpawnedWeapon" }, // 2817367844
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -264,10 +264,10 @@ UPawnCombatComponent::~UPawnCombatComponent() {}
 struct Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Components_Combat_PawnCombatComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPawnCombatComponent, UPawnCombatComponent::StaticClass, TEXT("UPawnCombatComponent"), &Z_Registration_Info_UClass_UPawnCombatComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPawnCombatComponent), 1047742618U) },
+		{ Z_Construct_UClass_UPawnCombatComponent, UPawnCombatComponent::StaticClass, TEXT("UPawnCombatComponent"), &Z_Registration_Info_UClass_UPawnCombatComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPawnCombatComponent), 3466768537U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Components_Combat_PawnCombatComponent_h_695881174(TEXT("/Script/Warrior"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Components_Combat_PawnCombatComponent_h_3170748053(TEXT("/Script/Warrior"),
 	Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Components_Combat_PawnCombatComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Character_Components_Combat_PawnCombatComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
