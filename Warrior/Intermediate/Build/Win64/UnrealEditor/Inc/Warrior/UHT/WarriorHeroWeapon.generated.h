@@ -9,12 +9,18 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FGameplayAbilitySpecHandle;
 #ifdef WARRIOR_WarriorHeroWeapon_generated_h
 #error "WarriorHeroWeapon.generated.h already included, missing '#pragma once' in WarriorHeroWeapon.h"
 #endif
 #define WARRIOR_WarriorHeroWeapon_generated_h
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execAssignGrantedAbilitySpecHandles); \
+	DECLARE_FUNCTION(execGetGrantedAbilitySpecHandles);
+
+
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWarriorHeroWeapon(); \
 	friend struct Z_Construct_UClass_AWarriorHeroWeapon_Statics; \
@@ -23,7 +29,7 @@ public: \
 	DECLARE_SERIALIZER(AWarriorHeroWeapon)
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWarriorHeroWeapon(); \
 private: \
@@ -37,12 +43,13 @@ public: \
 	NO_API virtual ~AWarriorHeroWeapon();
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_13_PROLOG
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_16_GENERATED_BODY \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_14_PROLOG
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_Items_Weapon_WarriorHeroWeapon_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
