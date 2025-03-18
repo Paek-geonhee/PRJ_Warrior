@@ -10,20 +10,23 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
+class UPawnCombatComponent;
 enum class EWarriorConfirmType : uint8;
+enum class EWarriorValidType : uint8;
 struct FGameplayTag;
 #ifdef WARRIOR_WarriorFunctionLibrary_generated_h
 #error "WarriorFunctionLibrary.generated.h already included, missing '#pragma once' in WarriorFunctionLibrary.h"
 #endif
 #define WARRIOR_WarriorFunctionLibrary_generated_h
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execBP_GetPawnCombatComponentFromActorInfo); \
 	DECLARE_FUNCTION(execBP_DoesActorHaveTag); \
 	DECLARE_FUNCTION(execRemoveGameplayTagToActorIfFound); \
 	DECLARE_FUNCTION(execAddGameplayTagToActorIfNone);
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_22_INCLASS_NO_PURE_DECLS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUWarriorFunctionLibrary(); \
 	friend struct Z_Construct_UClass_UWarriorFunctionLibrary_Statics; \
@@ -32,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(UWarriorFunctionLibrary)
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_22_ENHANCED_CONSTRUCTORS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_20_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UWarriorFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -46,13 +49,13 @@ public: \
 	NO_API virtual ~UWarriorFunctionLibrary();
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_19_PROLOG
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_22_GENERATED_BODY \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_17_PROLOG
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_22_INCLASS_NO_PURE_DECLS \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_22_ENHANCED_CONSTRUCTORS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,13 +65,5 @@ template<> WARRIOR_API UClass* StaticClass<class UWarriorFunctionLibrary>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h
 
-
-#define FOREACH_ENUM_EWARRIORCONFIRMTYPE(op) \
-	op(EWarriorConfirmType::Yes) \
-	op(EWarriorConfirmType::No) 
-
-enum class EWarriorConfirmType : uint8;
-template<> struct TIsUEnumClass<EWarriorConfirmType> { enum { Value = true }; };
-template<> WARRIOR_API UEnum* StaticEnum<EWarriorConfirmType>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

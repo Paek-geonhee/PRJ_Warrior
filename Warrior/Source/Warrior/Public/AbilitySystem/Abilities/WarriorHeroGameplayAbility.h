@@ -12,11 +12,10 @@ class UHeroCombatComponent;
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class WARRIOR_API UWarriorHeroGameplayAbility : public UWarriorGameplayAbility
 {
 	GENERATED_BODY()
-	
 private:
 	TWeakObjectPtr<AWarriorHeroCharacter> CachedWarriorHeroCharacter;
 	TWeakObjectPtr<AWarriorHeroController> CachedWarriorHeroController;
