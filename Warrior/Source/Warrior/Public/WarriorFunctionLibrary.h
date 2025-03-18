@@ -36,6 +36,6 @@ public:
 
 	static UPawnCombatComponent* NativeGetPawnCombatComponentFromActorInfo(AActor* InActor);
 
-	UFUNCTION(BlueprintCallable, Category = "Warrior|FunctionLibrary", meta = (DisplayName = "Get Pawn Combat Component From Actor"))
+	UFUNCTION(BlueprintCallable, Category = "Warrior|FunctionLibrary", meta = (DisplayName = "Get Pawn Combat Component From Actor", ExpandEnumAsExecs = "OutValidType"))
 	static UPawnCombatComponent* BP_GetPawnCombatComponentFromActorInfo(AActor* InActor, EWarriorValidType& OutValidType);
 };

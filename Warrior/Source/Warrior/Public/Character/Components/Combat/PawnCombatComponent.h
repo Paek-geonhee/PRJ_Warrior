@@ -9,6 +9,13 @@
 
 
 class AWarriorWeaponBase;
+
+UENUM(BlueprintType)
+enum class EToggleDamageType : uint8 {
+	CurrentEquippedWeapon,
+	LeftHand,
+	RightHand
+};
 /**
  * 
  */
@@ -29,6 +36,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Warrior|Combat")
 	AWarriorWeaponBase* GetCurrentEquippedWeapon() const;
+
+	UFUNCTION(BlueprintCallable, Category = "Warrior|Combat")
+	void ToggleWeaponColision(bool bShouldEnable, EToggleDamageType ToggleDamageType = EToggleDamageType::CurrentEquippedWeapon);
 
 
 private:
