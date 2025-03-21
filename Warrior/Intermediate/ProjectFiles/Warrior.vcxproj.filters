@@ -20,6 +20,9 @@
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
@@ -100,6 +103,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Warrior\Private\AbilitySystem\Abilities\WarriorHeroGameplayAbility.cpp">
       <Filter>Source\Warrior\Private\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Private\AbilitySystem\GEExactCalc">
+      <UniqueIdentifier>{9BCE8A49-CBCF-317D-97DC-90B080CEF2D5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Private\AbilitySystem\GEExactCalc\GEExactCalc_DamageTaken.cpp">
+      <Filter>Source\Warrior\Private\AbilitySystem\GEExactCalc</Filter>
     </ClCompile>
     <Filter Include="Source\Warrior\Private\Character">
       <UniqueIdentifier>{D21ED144-E890-30B5-945A-8C8E7EBA2719}</UniqueIdentifier>
@@ -193,6 +202,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Warrior\Public\AbilitySystem\Abilities\WarriorHeroGameplayAbility.h">
       <Filter>Source\Warrior\Public\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\AbilitySystem\GEExactCalc">
+      <UniqueIdentifier>{3E3E16AB-E4A9-3AEE-86E8-4FF4EC349DB1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\AbilitySystem\GEExactCalc\GEExactCalc_DamageTaken.h">
+      <Filter>Source\Warrior\Public\AbilitySystem\GEExactCalc</Filter>
     </ClCompile>
     <Filter Include="Source\Warrior\Public\Anim">
       <UniqueIdentifier>{427D8700-3F66-3F16-838F-8C366AAEB890}</UniqueIdentifier>

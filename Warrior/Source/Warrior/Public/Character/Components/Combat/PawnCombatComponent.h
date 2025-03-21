@@ -40,6 +40,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Warrior|Combat")
 	void ToggleWeaponColision(bool bShouldEnable, EToggleDamageType ToggleDamageType = EToggleDamageType::CurrentEquippedWeapon);
 
+	virtual void OnWeaponHitTarget(AActor* HitActor);
+	virtual void OnWeaponPulledFromTarget(AActor* InteractiveActor);
+protected:
+	TArray<AActor*> OverlappedActors;
 
 private:
 	// 아이템을 집어넣는 컨테이너
