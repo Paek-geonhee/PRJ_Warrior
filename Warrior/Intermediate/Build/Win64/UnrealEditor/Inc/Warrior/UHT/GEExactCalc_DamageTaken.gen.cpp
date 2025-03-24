@@ -74,7 +74,6 @@ template<> WARRIOR_API UClass* StaticClass<UGEExactCalc_DamageTaken>()
 {
 	return UGEExactCalc_DamageTaken::StaticClass();
 }
-UGEExactCalc_DamageTaken::UGEExactCalc_DamageTaken(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UGEExactCalc_DamageTaken);
 UGEExactCalc_DamageTaken::~UGEExactCalc_DamageTaken() {}
 // End Class UGEExactCalc_DamageTaken

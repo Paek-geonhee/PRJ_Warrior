@@ -24,8 +24,6 @@ public: \
 
 
 #define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_AbilitySystem_GEExactCalc_GEExactCalc_DamageTaken_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UGEExactCalc_DamageTaken(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UGEExactCalc_DamageTaken(UGEExactCalc_DamageTaken&&); \
@@ -33,7 +31,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGEExactCalc_DamageTaken); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGEExactCalc_DamageTaken); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGEExactCalc_DamageTaken) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGEExactCalc_DamageTaken) \
 	NO_API virtual ~UGEExactCalc_DamageTaken();
 
 

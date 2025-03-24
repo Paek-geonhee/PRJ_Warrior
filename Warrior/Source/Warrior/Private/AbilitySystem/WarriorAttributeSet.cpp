@@ -2,6 +2,9 @@
 
 
 #include "AbilitySystem/WarriorAttributeSet.h"
+#include "GameplayEffectExtension.h"
+
+#include "WarriorDebugHelper.h"
 
 UWarriorAttributeSet::UWarriorAttributeSet()
 {
@@ -11,4 +14,28 @@ UWarriorAttributeSet::UWarriorAttributeSet()
 	InitMaxRage(1.f);
 	InitAttackPower(1.f);
 	InitDefensePower(1.f);
+}
+
+void UWarriorAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data)
+{
+	if (Data.EvaluatedData.Attribute == GetCurrentHealthAttribute()) {
+		float NewCurrentHealth = FMath::Clamp(GetCurrentHealth(), 0.f, GetMaxHealth());
+		Debug::Print(TEXT("Current HP : %f"), NewCurrentHealth);
+		SetCurrentHealth(NewCurrentHealth);
+	}
+
+	if (Data.EvaluatedData.Attribute == GetCurrentRageAttribute()) {
+		float NewCurrentRage = FMath::Clamp(GetCurrentRage(), 0.f, GetMaxRage());
+
+		SetCurrentRage(NewCurrentRage);
+	}
+
+	if (Data.EvaluatedData.Attribute == GetDamageTakenAttribute()) {
+		const float OldHeatlh = GetCurrentHealth();
+		const float DamageDone = GetDamageTaken();
+
+		const float NewCurrentHealth = FMath::Clamp(OldHeatlh - DamageDone, 0.f, GetMaxHealth());
+		Debug::Print(TEXT("Refreshed HP : %f"), NewCurrentHealth);
+		SetCurrentHealth(NewCurrentHealth);
+	}
 }
