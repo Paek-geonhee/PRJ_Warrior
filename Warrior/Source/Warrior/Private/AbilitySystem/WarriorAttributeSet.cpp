@@ -3,6 +3,8 @@
 
 #include "AbilitySystem/WarriorAttributeSet.h"
 #include "GameplayEffectExtension.h"
+#include "Character/Input/WarriorGameplayTags.h"
+#include "WarriorFunctionLibrary.h"
 
 #include "WarriorDebugHelper.h"
 
@@ -37,5 +39,9 @@ void UWarriorAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCal
 		const float NewCurrentHealth = FMath::Clamp(OldHeatlh - DamageDone, 0.f, GetMaxHealth());
 		Debug::Print(TEXT("Refreshed HP : %f"), NewCurrentHealth);
 		SetCurrentHealth(NewCurrentHealth);
+
+		if (NewCurrentHealth == 0) {
+			UWarriorFunctionLibrary::AddGameplayTagToActorIfNone(Data.Target.GetAvatarActor(), WarriorGameplayTags::Shared_Status_Dead);
+		}
 	}
 }
