@@ -40,7 +40,7 @@ void UWarriorAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCal
 		Debug::Print(TEXT("Refreshed HP : %f"), NewCurrentHealth);
 		SetCurrentHealth(NewCurrentHealth);
 
-		if (NewCurrentHealth == 0) {
+		if (NewCurrentHealth == 0.f) {
 			UWarriorFunctionLibrary::AddGameplayTagToActorIfNone(Data.Target.GetAvatarActor(), WarriorGameplayTags::Shared_Status_Dead);
 		}
 	}
