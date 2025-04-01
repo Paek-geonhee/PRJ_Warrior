@@ -5,9 +5,14 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/WBP_Test.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/BP_HeroCharacter.uasset",
-				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Enemy/BP_EnemyCharacter_Base.uasset"
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Enemy/BP_EnemyCharacter_Base.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/WBP_Test.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/TemplateWidget/WarriorSizeBox.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/TemplateWidget/TPWBP_StatusBar.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Textures/UI/Material/MI_HeroHealthBar.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/TemplateWidget/TPWBP_IconSlot.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/WBP_Test.uasset"
 			]
 		}
 	]
