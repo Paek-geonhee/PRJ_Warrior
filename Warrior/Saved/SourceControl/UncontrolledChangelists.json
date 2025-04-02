@@ -12,11 +12,16 @@
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/TemplateWidget/TPWBP_StatusBar.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Assets/Textures/UI/Material/MI_HeroHealthBar.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/TemplateWidget/TPWBP_IconSlot.uasset",
-				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/HeroWidgets/BP_HeroOverlay.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_OverlayWidget.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/HeroWidgets/WBP_HeroOverlay.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/DA_Hero.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameplayEffect/GE_Hero_Static.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/EnemyWidgets/WBP_Default_Enemy_HealthBar.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Enemy/Gruntling/BP_Gruntling_Guardian.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/BP_HeroWeaponAxe.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/Equiping/GA_Hero_EquipAxe.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/Equiping/GA_Hero_UnequipAxe.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/HeroWidgets/BP_HeroOverlay.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/WBP_Test.uasset"
 			]
 		}
