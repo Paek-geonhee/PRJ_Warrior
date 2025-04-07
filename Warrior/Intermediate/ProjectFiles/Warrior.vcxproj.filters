@@ -149,6 +149,12 @@
     <ClCompile Include="..\..\Source\Warrior\Private\Character\Components\UI\PawnUIComponent.cpp">
       <Filter>Source\Warrior\Private\Character\Components\UI</Filter>
     </ClCompile>
+    <Filter Include="Source\Warrior\Private\Character\Input">
+      <UniqueIdentifier>{B7BFD29B-DA6A-39B8-B5D6-B97F6867FE12}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Private\Character\Input\WarriorAIController.cpp">
+      <Filter>Source\Warrior\Private\Character\Input</Filter>
+    </ClCompile>
     <Filter Include="Source\Warrior\Private\DataAssets">
       <UniqueIdentifier>{ABB22B1D-FACF-3493-B143-4301FF2B4DA5}</UniqueIdentifier>
     </Filter>
@@ -297,6 +303,9 @@
       <UniqueIdentifier>{6D984A4F-B01A-3D5A-B882-7AF687CD246C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Warrior\Public\Character\Input\DataAsset_InputConfig.h">
+      <Filter>Source\Warrior\Public\Character\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Warrior\Public\Character\Input\WarriorAIController.h">
       <Filter>Source\Warrior\Public\Character\Input</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Warrior\Public\Character\Input\WarriorGameplayTags.h">
