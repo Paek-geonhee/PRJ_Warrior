@@ -21,10 +21,15 @@
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/BP_HeroWeaponAxe.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/Equiping/GA_Hero_EquipAxe.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/Equiping/GA_Hero_UnequipAxe.uasset",
-				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/__ExternalActors__/Maps/Feature/6/00/TZB9VH9ZX1LUB2FGD58YUB.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/__ExternalActors__/Maps/Feature/E/Q7/DQX60VOC0TNDT4RE7FQIFT.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Enemy/AIC_Enemy_Base.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Enemy/Gruntling/AIC_Guardian.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Enemy/Gruntling/BP_Gruntling_Base.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Enemy/Gruntling/BT_Guardian.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Enemy/BB_Enemy_Base.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/__ExternalActors__/Maps/Feature/A/F7/J55JCGKHOO4FSNPPCYGJL2.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/__ExternalActors__/Maps/Feature/6/7M/3Q70JNZXM4VF1BPQJJPC00.uasset",
+				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/__ExternalActors__/Maps/Feature/6/00/TZB9VH9ZX1LUB2FGD58YUB.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/Widgets/HeroWidgets/BP_HeroOverlay.uasset",
 				"C:/Users/user/Desktop/PRJ_Warrior/Warrior/Content/WBP_Test.uasset"
 			]
