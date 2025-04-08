@@ -113,6 +113,12 @@
     <ClCompile Include="..\..\Source\Warrior\Private\AbilitySystem\GEExactCalc\GEExactCalc_DamageTaken.cpp">
       <Filter>Source\Warrior\Private\AbilitySystem\GEExactCalc</Filter>
     </ClCompile>
+    <Filter Include="Source\Warrior\Private\AI">
+      <UniqueIdentifier>{D76A10E6-74DA-3B17-B93F-B03971A2ADC2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Private\AI\BTService_OrientToTargetActor.cpp">
+      <Filter>Source\Warrior\Private\AI</Filter>
+    </ClCompile>
     <Filter Include="Source\Warrior\Private\Character">
       <UniqueIdentifier>{D21ED144-E890-30B5-945A-8C8E7EBA2719}</UniqueIdentifier>
     </Filter>
@@ -238,6 +244,12 @@
     </Filter>
     <ClCompile Include="..\..\Source\Warrior\Public\AbilitySystem\GEExactCalc\GEExactCalc_DamageTaken.h">
       <Filter>Source\Warrior\Public\AbilitySystem\GEExactCalc</Filter>
+    </ClCompile>
+    <Filter Include="Source\Warrior\Public\AI">
+      <UniqueIdentifier>{F6BE9F9D-4B34-34C7-AC30-DF8A00729C0E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Warrior\Public\AI\BTService_OrientToTargetActor.h">
+      <Filter>Source\Warrior\Public\AI</Filter>
     </ClCompile>
     <Filter Include="Source\Warrior\Public\Anim">
       <UniqueIdentifier>{427D8700-3F66-3F16-838F-8C366AAEB890}</UniqueIdentifier>

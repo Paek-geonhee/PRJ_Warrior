@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Warrior.cpp.obj": [
+			"BTService_OrientToTargetActor.gen.cpp.obj",
 			"DataAsset_EnemyStartUpData.gen.cpp.obj",
 			"DataAsset_HeroStartUpData.gen.cpp.obj",
 			"DataAsset_InputConfig.gen.cpp.obj",
@@ -46,6 +47,7 @@
 			"GEExactCalc_DamageTaken.cpp.obj",
 			"WarriorAbilitySystemComponent.cpp.obj",
 			"WarriorAttributeSet.cpp.obj",
+			"BTService_OrientToTargetActor.cpp.obj",
 			"EnemyCombatComponent.cpp.obj",
 			"HeroCombatComponent.cpp.obj",
 			"PawnCombatComponent.cpp.obj",
