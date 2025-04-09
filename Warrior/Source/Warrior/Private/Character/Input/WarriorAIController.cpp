@@ -67,9 +67,12 @@ ETeamAttitude::Type AWarriorAIController::GetTeamAttitudeTowards(const AActor& O
 
 void AWarriorAIController::OnEnemyPerceptionUpdated(AActor* Actor, FAIStimulus Stimulus)
 {
-	if (Stimulus.WasSuccessfullySensed() && Actor) {
-		if (UBlackboardComponent* BlockboardComponent = GetBlackboardComponent()) {
-			BlockboardComponent->SetValueAsObject(FName("TargetActor"), Actor);
+
+	if (UBlackboardComponent* BlockboardComponent = GetBlackboardComponent()) {
+		if (!BlockboardComponent->GetValueAsObject(FName("TargetActor"))) {
+			if (Stimulus.WasSuccessfullySensed() && Actor) {
+				BlockboardComponent->SetValueAsObject(FName("TargetActor"), Actor);
+			}
 		}
 	}
 }
