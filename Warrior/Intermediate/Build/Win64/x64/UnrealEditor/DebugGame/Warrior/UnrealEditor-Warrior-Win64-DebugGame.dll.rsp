@@ -49,6 +49,7 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTags\UnrealEditor-GameplayTags.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTasks\UnrealEditor-GameplayTasks.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\AnimGraphRuntime\UnrealEditor-AnimGraphRuntime.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
