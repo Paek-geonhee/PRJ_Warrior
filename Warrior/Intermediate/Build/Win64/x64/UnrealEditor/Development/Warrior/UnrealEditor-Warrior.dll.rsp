@@ -50,6 +50,7 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTags\UnrealEditor-GameplayTags.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTasks\UnrealEditor-GameplayTasks.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\AnimGraphRuntime\UnrealEditor-AnimGraphRuntime.lib"
+"..\Plugins\Animation\MotionWarping\Intermediate\Build\Win64\x64\UnrealEditor\Development\MotionWarping\UnrealEditor-MotionWarping.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
