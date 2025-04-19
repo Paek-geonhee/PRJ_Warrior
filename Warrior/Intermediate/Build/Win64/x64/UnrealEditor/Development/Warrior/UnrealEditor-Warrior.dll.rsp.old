@@ -38,6 +38,7 @@
 /NOIMPLIB
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\WarriorEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\Module.Warrior.cpp.obj"
+"C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\WarriorGameplayTags.cpp.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"
@@ -50,6 +51,7 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTags\UnrealEditor-GameplayTags.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTasks\UnrealEditor-GameplayTasks.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\AnimGraphRuntime\UnrealEditor-AnimGraphRuntime.lib"
+"..\Plugins\Animation\MotionWarping\Intermediate\Build\Win64\x64\UnrealEditor\Development\MotionWarping\UnrealEditor-MotionWarping.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"

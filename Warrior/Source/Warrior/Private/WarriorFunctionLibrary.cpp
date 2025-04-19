@@ -75,3 +75,8 @@ bool UWarriorFunctionLibrary::IsTargetPawnHostile(APawn* QueryPawn, APawn* Targe
 
     return false;
 }
+
+float UWarriorFunctionLibrary::GetScalableFloatValueAtLevel(const FScalableFloat& ScalableFloat, float InLevel)
+{
+    return ScalableFloat.GetValueAtLevel(InLevel);
+}

@@ -3,6 +3,7 @@
 	{
 		"Module.Warrior.cpp.obj": [
 			"BTService_OrientToTargetActor.gen.cpp.obj",
+			"BTTask_RotateToFaceTarget.gen.cpp.obj",
 			"DataAsset_EnemyStartUpData.gen.cpp.obj",
 			"DataAsset_HeroStartUpData.gen.cpp.obj",
 			"DataAsset_InputConfig.gen.cpp.obj",
@@ -48,6 +49,7 @@
 			"WarriorAbilitySystemComponent.cpp.obj",
 			"WarriorAttributeSet.cpp.obj",
 			"BTService_OrientToTargetActor.cpp.obj",
+			"BTTask_RotateToFaceTarget.cpp.obj",
 			"EnemyCombatComponent.cpp.obj",
 			"HeroCombatComponent.cpp.obj",
 			"PawnCombatComponent.cpp.obj",
@@ -70,7 +72,6 @@
 			"WarriorCharacterAnimInstance.cpp.obj",
 			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameModeBase.cpp.obj",
-			"WarriorGameplayTags.cpp.obj",
 			"WarriorHeroAnimInstance.cpp.obj",
 			"WarriorHeroCharacter.cpp.obj",
 			"WarriorHeroController.cpp.obj",
@@ -78,7 +79,8 @@
 			"WarriorInputComponent.cpp.obj",
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
-			"Warrior.cpp.obj"
+			"Warrior.cpp.obj",
+			"WarriorGameplayTags.cpp.obj"
 		]
 	}
 }
