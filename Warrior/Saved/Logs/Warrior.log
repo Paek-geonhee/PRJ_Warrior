@@ -2815,3 +2815,1134 @@ Sampler Limit: 32
 [2025.04.20-05.30.35:188][436]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1356.883057
 [2025.04.20-05.30.36:189][439]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.04.20-05.30.36:189][439]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1357.550293, Update Interval: 333.386627
+[2025.04.20-05.36.30:881][503]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1712.573608
+[2025.04.20-05.36.31:880][506]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-05.36.31:880][506]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1713.239624, Update Interval: 309.248932
+[2025.04.20-05.42.22:152][645]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2063.842041
+[2025.04.20-05.42.23:152][648]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-05.42.23:152][648]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2064.509033, Update Interval: 322.312073
+[2025.04.20-05.48.24:182][731]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2425.872314
+[2025.04.20-05.48.25:181][734]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-05.48.25:181][734]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2426.538330, Update Interval: 350.031433
+[2025.04.20-05.48.40:171][832]LogStreaming: Display: FlushAsyncLoading(602): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.20-05.48.40:209][832]Candidate modules for hot reload:
+[2025.04.20-05.48.40:209][832]  Warrior
+[2025.04.20-05.48.40:215][832]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,1648 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.04.20-05.48.40:241][832]Warning: Starting HotReload took  0.4s.
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,1648 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Building WarriorEditor...
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Using Visual Studio 2022 14.38.33144 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: [Adaptive Build] Excluded from Warrior unity file: WarriorFunctionLibrary.cpp, WarriorGameplayTags.cpp, Warrior.init.gen.cpp, WarriorFunctionLibrary.gen.cpp
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.04.20-05.48.53:428][153]CompilerResultsLog:   Requested 4 process count multiplier: limiting max parallel actions to 16
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 7 action(s)
+[2025.04.20-05.48.53:428][153]CompilerResultsLog:   Storage capacity 40Gb
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: ---- Starting trace: 250420_144841 ----
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: ------ Building 7 action(s) started ------
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: [1/7] Compile [x64] Warrior.init.gen.cpp
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: [2/7] Compile [x64] WarriorFunctionLibrary.gen.cpp
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: [3/7] Compile [x64] WarriorFunctionLibrary.cpp
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: [4/7] Compile [x64] Module.Warrior.cpp
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\AbilitySystem\WarriorAbilitySystemComponent.cpp(14): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\AbilitySystem\WarriorAbilitySystemComponent.cpp(35): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\DataAssets\StartUpData\DataAsset_HeroStartUpData.cpp(20): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: [5/7] Link [x64] UnrealEditor-Warrior-1648.lib
+[2025.04.20-05.48.53:428][153]CompilerResultsLog:    C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-1648.lib ??̺귯?? ??C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-1648.exp ??ü?? ??ϰ????ϴ?
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: [6/7] Link [x64] UnrealEditor-Warrior-1648.dll
+[2025.04.20-05.48.53:428][153]CompilerResultsLog:    ??ü C:\Users\user\Desktop\PRJ_Warrior\Warrior\Binaries\Win64\UnrealEditor-Warrior-1648.exp ????
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: [7/7] WriteMetadata WarriorEditor.target (UBA disabled)
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 4.4kb
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 11.54 seconds
+[2025.04.20-05.48.53:428][153]CompilerResultsLog: Total execution time: 12.48 seconds
+[2025.04.20-05.48.53:428][153]LogMainFrame: MainFrame: Module compiling took 13.259 seconds
+[2025.04.20-05.48.53:428][153]LogStreaming: Display: FlushAsyncLoading(603): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.20-05.48.53:459][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.04.20-05.48.53:556][153]LogClass: UPackage /Script/Warrior Reload.
+[2025.04.20-05.48.53:556][153]LogClass: UClass WarriorFunctionLibrary Reload.
+[2025.04.20-05.48.53:635][153]LogClass: Could not find existing class WarriorFunctionLibrary in package /Script/Warrior for reload, assuming new or modified class
+[2025.04.20-05.48.53:636][153]LogClass: Function AddGameplayTagToActorIfNone is new or belongs to a modified class.
+[2025.04.20-05.48.53:636][153]LogClass: Function BP_DoesActorHaveTag is new or belongs to a modified class.
+[2025.04.20-05.48.53:636][153]LogClass: Function BP_GetPawnCombatComponentFromActorInfo is new or belongs to a modified class.
+[2025.04.20-05.48.53:636][153]LogClass: Function ComputeHitReactDirectionTag is new or belongs to a modified class.
+[2025.04.20-05.48.53:636][153]LogClass: Function GetScalableFloatValueAtLevel is new or belongs to a modified class.
+[2025.04.20-05.48.53:636][153]LogClass: Function IsTargetPawnHostile is new or belongs to a modified class.
+[2025.04.20-05.48.53:636][153]LogClass: Function RemoveGameplayTagToActorIfFound is new or belongs to a modified class.
+[2025.04.20-05.48.53:677][153]Re-instancing WarriorFunctionLibrary after reload.
+[2025.04.20-05.48.53:885][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.04.20-05.48.53:920][153]Display: HotReload took 14.1s.
+[2025.04.20-05.48.53:921][153]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 35 classes unchanged, 5 enums unchanged, 3 scriptstructs unchanged, 28 functions remapped, 3 scriptstructs remapped
+[2025.04.20-05.50.15:609][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.04.20-05.50.15:789][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.20-05.50.15:803][787]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-05.50.15:832][787]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameAbility/GA_Hero_HitReact] ([2] browsable assets)...
+[2025.04.20-05.50.15:832][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameAbility/GA_Hero_HitReact]
+[2025.04.20-05.50.15:832][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameAbility/GA_Hero_HitReact" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset" SILENT=true
+[2025.04.20-05.50.15:840][787]LogSavePackage: Moving output files for package: /Game/GameAbility/GA_Hero_HitReact
+[2025.04.20-05.50.15:841][787]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/GA_Hero_HitReactC00A9B3F4B630B214D61FB848A6ECE3A.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset'
+[2025.04.20-05.50.15:849][787]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.754 ms (total: 1.53 sec)
+[2025.04.20-05.50.15:884][787]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.20-05.50.15:884][787]LogContentValidation: Enabled validators:
+[2025.04.20-05.50.15:884][787]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-05.50.15:884][787]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-05.50.15:884][787]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-05.50.15:884][787]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-05.50.15:884][787]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-05.50.15:884][787]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-05.50.15:884][787]AssetCheck: /Game/GameAbility/GA_Hero_HitReact Validating asset
+[2025.04.20-05.50.24:153][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.04.20-05.50.26:280][ 20]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.20-05.50.26:288][ 20]LogContentBundle: [Feature(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.20-05.50.26:288][ 20]LogWorldPartition: Display: GenerateStreaming for 'Feature' started...
+[2025.04.20-05.50.26:290][ 20]LogWorldPartition: Display: GenerateStreaming for 'Feature' took 1.615 ms (total: 12.343 ms)
+[2025.04.20-05.50.26:295][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.20-05.50.26:295][ 20]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-05.50.26:299][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004074s)
+[2025.04.20-05.50.26:299][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Feature.Feature to /Game/Maps/UEDPIE_0_Feature.Feature (0.004111s)
+[2025.04.20-05.50.26:319][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.04.20-05.50.26:322][ 20]LogChaosDD: Creating Chaos Debug Draw Scene for world Feature
+[2025.04.20-05.50.26:323][ 20]LogWorldPartition: ULevel::OnLevelLoaded(Feature)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.20-05.50.26:323][ 20]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.20-05.50.26:323][ 20]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Feature.Feature, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.20-05.50.26:323][ 20]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.20-05.50.26:325][ 20]LogWorldPartition: Display: WorldPartition initialize took 1.168 ms (total: 828.640 ms)
+[2025.04.20-05.50.26:325][ 20]LogPlayLevel: PIE: World Init took: (0.003080s)
+[2025.04.20-05.50.26:325][ 20]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.04.20-05.50.26:325][ 20]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.20-05.50.26:325][ 20]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.20-05.50.26:325][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.20-05.50.26:325][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.20-05.50.26:325][ 20]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.20-05.50.26:325][ 20]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.20-05.50.26:325][ 20]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.20-05.50.26:325][ 20]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.20-05.50.26:325][ 20]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.20-05.50.26:325][ 20]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.20-05.50.26:325][ 20]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.20-05.50.26:327][ 20]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.20-05.50.26:352][ 20]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N550)
+[2025.04.20-05.50.26:352][ 20]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.20-05.50.26:352][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.20-05.50.26:352][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.20-05.50.26:352][ 20]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.04.20-05.50.26:352][ 20]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.04.20-05.50.26:355][ 20]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.04.20-05.50.26:355][ 20]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.04.20-05.50.26:355][ 20]LogInit: FAudioDevice initialized with ID 5.
+[2025.04.20-05.50.26:355][ 20]LogAudio: Display: Audio Device (ID: 5) registered with world 'Feature'.
+[2025.04.20-05.50.26:356][ 20]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.04.20-05.50.26:359][ 20]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2025.04.20-05.50.26:361][ 20]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Feature.Feature up for play (max tick rate 60) at 2025.04.20-14.50.26
+[2025.04.20-05.50.26:363][ 20]LogWorld: Bringing up level for play took: 0.004066
+[2025.04.20-05.50.26:365][ 20]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.04.20-05.50.26:368][ 20]LogTemp: Warning: A weapon named : BP_HeroWeaponAxe_C_0 has been registered using the tag Player.Weapon.Axe
+[2025.04.20-05.50.26:369][ 20]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.50.26:369][ 20]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.50.26:369][ 20]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.50.26:369][ 20]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.50.26:369][ 20]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.50.26:369][ 20]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.50.26:371][ 20]PIE: Server logged in
+[2025.04.20-05.50.26:373][ 20]PIE: Play in editor total start time 0.084 seconds.
+[2025.04.20-05.50.26:375][ 20]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_0 has been registered using the tag Enemy.Weapon
+[2025.04.20-05.50.26:375][ 20]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-05.50.26:375][ 20]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-05.50.26:375][ 20]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-05.50.26:375][ 20]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-05.50.26:375][ 20]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_1 has been registered using the tag Enemy.Weapon
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_2 has been registered using the tag Enemy.Weapon
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-05.50.26:376][ 20]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-05.50.28:252][101]LogTemp: Warning: Found Ability
+[2025.04.20-05.50.28:968][144]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-05.50.28:969][144]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] 0.729542
+[2025.04.20-05.50.30:852][257]LogTemp: Warning: Found Ability
+[2025.04.20-05.50.31:618][303]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-05.50.31:618][303]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] 49.654404
+[2025.04.20-05.50.35:534][538]LogTemp: Warning: Found Ability
+[2025.04.20-05.50.36:269][582]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-05.50.36:269][582]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] 120.212669
+[2025.04.20-05.50.37:598][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-05.50.37:598][659]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-05.50.37:598][659]LogWorld: UWorld::CleanupWorld for Feature, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-05.50.37:600][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-05.50.37:600][659]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Feature.Feature
+[2025.04.20-05.50.37:603][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.20-05.50.37:609][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-05.50.37:633][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-05.50.37:634][659]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.04.20-05.50.37:634][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.04.20-05.50.37:636][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.04.20-05.50.37:643][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.20-05.50.37:675][660]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.04.20-05.54.45:524][711]Candidate modules for hot reload:
+[2025.04.20-05.54.45:524][711]  Warrior
+[2025.04.20-05.54.45:530][711]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,9513 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.04.20-05.54.45:536][711]Warning: Starting HotReload took  0.0s.
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,9513 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Building WarriorEditor...
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Using Visual Studio 2022 14.38.33144 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: [Adaptive Build] Excluded from Warrior unity file: WarriorFunctionLibrary.cpp, WarriorGameplayTags.cpp, Warrior.init.gen.cpp, WarriorFunctionLibrary.gen.cpp
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.04.20-05.54.51:787][769]CompilerResultsLog:   Requested 4 process count multiplier: limiting max parallel actions to 16
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 4 action(s)
+[2025.04.20-05.54.51:787][769]CompilerResultsLog:   Storage capacity 40Gb
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: ---- Starting trace: 250420_145446 ----
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: [1/4] Compile [x64] WarriorFunctionLibrary.cpp
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-Warrior-9513.lib
+[2025.04.20-05.54.51:787][769]CompilerResultsLog:    C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-9513.lib ??̺귯?? ??C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-9513.exp ??ü?? ??ϰ????ϴ?
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-Warrior-9513.dll
+[2025.04.20-05.54.51:787][769]CompilerResultsLog:    ??ü C:\Users\user\Desktop\PRJ_Warrior\Warrior\Binaries\Win64\UnrealEditor-Warrior-9513.exp ????
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: [4/4] WriteMetadata WarriorEditor.target (UBA disabled)
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 3.4kb
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 5.13 seconds
+[2025.04.20-05.54.51:787][769]CompilerResultsLog: Total execution time: 6.10 seconds
+[2025.04.20-05.54.51:787][769]LogMainFrame: MainFrame: Module compiling took 6.284 seconds
+[2025.04.20-05.54.51:811][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.04.20-05.54.52:124][769]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.04.20-05.54.52:147][769]Display: HotReload took  6.7s.
+[2025.04.20-05.54.52:147][769]Display: Reload/Re-instancing Complete: 1 package changed, 36 classes unchanged, 5 enums unchanged, 3 scriptstructs unchanged, 35 functions remapped, 3 scriptstructs remapped
+[2025.04.20-05.54.53:248][773]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2814.935059
+[2025.04.20-05.54.54:249][776]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-05.54.54:249][776]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2815.602539, Update Interval: 344.552734
+[2025.04.20-05.54.58:462][875]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.20-05.54.58:470][875]LogContentBundle: [Feature(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.20-05.54.58:470][875]LogWorldPartition: Display: GenerateStreaming for 'Feature' started...
+[2025.04.20-05.54.58:472][875]LogWorldPartition: Display: GenerateStreaming for 'Feature' took 2.011 ms (total: 14.355 ms)
+[2025.04.20-05.54.58:473][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.20-05.54.58:508][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-05.54.58:511][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003313s)
+[2025.04.20-05.54.58:511][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Feature.Feature to /Game/Maps/UEDPIE_0_Feature.Feature (0.003359s)
+[2025.04.20-05.54.58:588][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.04.20-05.54.58:598][875]LogChaosDD: Creating Chaos Debug Draw Scene for world Feature
+[2025.04.20-05.54.58:599][875]LogWorldPartition: ULevel::OnLevelLoaded(Feature)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.20-05.54.58:599][875]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.20-05.54.58:599][875]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Feature.Feature, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.20-05.54.58:599][875]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.20-05.54.58:600][875]LogWorldPartition: Display: WorldPartition initialize took 1.217 ms (total: 829.857 ms)
+[2025.04.20-05.54.58:600][875]LogPlayLevel: PIE: World Init took: (0.003066s)
+[2025.04.20-05.54.58:601][875]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.04.20-05.54.58:601][875]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.20-05.54.58:601][875]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.20-05.54.58:601][875]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.20-05.54.58:601][875]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.20-05.54.58:601][875]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.20-05.54.58:601][875]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.20-05.54.58:601][875]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.20-05.54.58:601][875]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.20-05.54.58:601][875]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.20-05.54.58:601][875]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.20-05.54.58:601][875]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.20-05.54.58:603][875]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.20-05.54.58:626][875]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N550)
+[2025.04.20-05.54.58:626][875]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.20-05.54.58:626][875]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.20-05.54.58:626][875]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.20-05.54.58:626][875]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.04.20-05.54.58:626][875]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.04.20-05.54.58:630][875]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.04.20-05.54.58:630][875]LogInit: FAudioDevice initialized with ID 6.
+[2025.04.20-05.54.58:630][875]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.04.20-05.54.58:630][875]LogAudio: Display: Audio Device (ID: 6) registered with world 'Feature'.
+[2025.04.20-05.54.58:630][875]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.04.20-05.54.58:633][875]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2025.04.20-05.54.58:635][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Feature.Feature up for play (max tick rate 60) at 2025.04.20-14.54.58
+[2025.04.20-05.54.58:636][875]LogWorld: Bringing up level for play took: 0.003635
+[2025.04.20-05.54.58:639][875]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.04.20-05.54.58:641][875]LogTemp: Warning: A weapon named : BP_HeroWeaponAxe_C_0 has been registered using the tag Player.Weapon.Axe
+[2025.04.20-05.54.58:642][875]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.54.58:642][875]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.54.58:642][875]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.54.58:642][875]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.54.58:642][875]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.54.58:642][875]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-05.54.58:643][875]PIE: Server logged in
+[2025.04.20-05.54.58:645][875]PIE: Play in editor total start time 0.175 seconds.
+[2025.04.20-05.54.58:647][875]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_0 has been registered using the tag Enemy.Weapon
+[2025.04.20-05.54.58:647][875]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-05.54.58:647][875]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-05.54.58:647][875]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-05.54.58:647][875]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-05.54.58:647][875]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_1 has been registered using the tag Enemy.Weapon
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_2 has been registered using the tag Enemy.Weapon
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-05.54.58:648][875]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-05.55.00:336][968]LogTemp: Warning: Found Ability
+[2025.04.20-05.55.01:035][ 10]LogTemp: Warning: Found Ability
+[2025.04.20-05.55.01:051][ 11]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-05.55.01:052][ 11]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] 4.868202
+[2025.04.20-05.55.01:736][ 52]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-05.55.01:736][ 52]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] -168.231247
+[2025.04.20-05.55.04:635][226]LogTemp: Warning: Found Ability
+[2025.04.20-05.55.05:218][261]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-05.55.05:218][261]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] 164.841217
+[2025.04.20-05.55.09:002][488]LogTemp: Warning: Found Ability
+[2025.04.20-05.55.09:718][531]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-05.55.09:718][531]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] -43.3349
+[2025.04.20-05.55.13:052][731]LogTemp: Warning: Found Ability
+[2025.04.20-05.55.13:636][766]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-05.55.13:636][766]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] 121.167351
+[2025.04.20-05.55.14:339][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-05.55.14:339][806]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-05.55.14:339][806]LogWorld: UWorld::CleanupWorld for Feature, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-05.55.14:340][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-05.55.14:340][806]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Feature.Feature
+[2025.04.20-05.55.14:343][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.20-05.55.14:349][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-05.55.14:368][806]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.20-05.55.14:380][806]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.04.20-05.55.14:380][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.04.20-05.55.14:382][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.04.20-05.55.14:387][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-05.55.14:402][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.04.20-05.55.14:437][807]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.04.20-05.59.00:619][584]Candidate modules for hot reload:
+[2025.04.20-05.59.00:619][584]  Warrior
+[2025.04.20-05.59.00:625][584]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,9819 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.04.20-05.59.00:632][584]Warning: Starting HotReload took  0.0s.
+[2025.04.20-05.59.11:505][635]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.04.20-05.59.11:505][635]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,9819 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.04.20-05.59.11:505][635]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: Building WarriorEditor...
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: Using Visual Studio 2022 14.38.33144 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: [Adaptive Build] Excluded from Warrior unity file: WarriorFunctionLibrary.cpp, WarriorGameplayTags.cpp, Warrior.init.gen.cpp, WarriorFunctionLibrary.gen.cpp
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.04.20-05.59.11:507][635]CompilerResultsLog:   Requested 4 process count multiplier: limiting max parallel actions to 16
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 5 action(s)
+[2025.04.20-05.59.11:507][635]CompilerResultsLog:   Storage capacity 40Gb
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: ---- Starting trace: 250420_145901 ----
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: ------ Building 5 action(s) started ------
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: [1/5] Compile [x64] WarriorGameplayTags.cpp
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: [2/5] Compile [x64] Module.Warrior.cpp
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\AbilitySystem\WarriorAbilitySystemComponent.cpp(14): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\AbilitySystem\WarriorAbilitySystemComponent.cpp(35): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Private\DataAssets\StartUpData\DataAsset_HeroStartUpData.cpp(20): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: [3/5] Link [x64] UnrealEditor-Warrior-9819.lib
+[2025.04.20-05.59.11:507][635]CompilerResultsLog:    C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-9819.lib ??̺귯?? ??C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-9819.exp ??ü?? ??ϰ????ϴ?
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: [4/5] Link [x64] UnrealEditor-Warrior-9819.dll
+[2025.04.20-05.59.11:507][635]CompilerResultsLog:    ??ü C:\Users\user\Desktop\PRJ_Warrior\Warrior\Binaries\Win64\UnrealEditor-Warrior-9819.exp ????
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: [5/5] WriteMetadata WarriorEditor.target (UBA disabled)
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 3.8kb
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 9.79 seconds
+[2025.04.20-05.59.11:507][635]CompilerResultsLog: Total execution time: 10.54 seconds
+[2025.04.20-05.59.11:507][635]LogMainFrame: MainFrame: Module compiling took 10.913 seconds
+[2025.04.20-05.59.11:530][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.04.20-05.59.11:799][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.04.20-05.59.11:823][635]Display: HotReload took 11.2s.
+[2025.04.20-05.59.11:823][635]Display: Reload/Re-instancing Complete: 1 package changed, 36 classes unchanged, 5 enums unchanged, 3 scriptstructs unchanged, 35 functions remapped, 3 scriptstructs remapped
+[2025.04.20-06.01.29:263][992]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3210.948730
+[2025.04.20-06.01.30:263][995]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-06.01.30:263][996]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3211.615723, Update Interval: 301.406281
+[2025.04.20-06.06.24:284][  7]Candidate modules for hot reload:
+[2025.04.20-06.06.24:284][  7]  Warrior
+[2025.04.20-06.06.24:291][  7]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Warrior,3214 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk]
+[2025.04.20-06.06.24:297][  7]Warning: Starting HotReload took  0.0s.
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Warrior,3214 WarriorEditor Win64 Development -Project="C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject" "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Warrior.uproject"  -IgnoreJunk
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Log file: C:\Users\user\AppData\Local\UnrealBuildTool\Log.txt
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\user\Desktop\PRJ_Warrior).
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Building WarriorEditor...
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Using Visual Studio 2022 14.38.33144 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: [Adaptive Build] Excluded from Warrior unity file: WarriorFunctionLibrary.cpp, WarriorGameplayTags.cpp, Warrior.init.gen.cpp, WarriorFunctionLibrary.gen.cpp
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.04.20-06.06.31:210][409]CompilerResultsLog:   Requested 4 process count multiplier: limiting max parallel actions to 16
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 4 action(s)
+[2025.04.20-06.06.31:210][409]CompilerResultsLog:   Storage capacity 40Gb
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: ---- Starting trace: 250420_150625 ----
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: [1/4] Compile [x64] WarriorFunctionLibrary.cpp
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-Warrior-3214.lib
+[2025.04.20-06.06.31:210][409]CompilerResultsLog:    C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-3214.lib ??̺귯?? ??C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior-3214.exp ??ü?? ??ϰ????ϴ?
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-Warrior-3214.dll
+[2025.04.20-06.06.31:210][409]CompilerResultsLog:    ??ü C:\Users\user\Desktop\PRJ_Warrior\Warrior\Binaries\Win64\UnrealEditor-Warrior-3214.exp ????
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: [4/4] WriteMetadata WarriorEditor.target (UBA disabled)
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Trace file written to C:/Users/user/AppData/Local/UnrealBuildTool/Log.uba with size 3.5kb
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 5.98 seconds
+[2025.04.20-06.06.31:210][409]CompilerResultsLog: Total execution time: 6.74 seconds
+[2025.04.20-06.06.31:210][409]LogMainFrame: MainFrame: Module compiling took 6.947 seconds
+[2025.04.20-06.06.31:314][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.04.20-06.06.31:679][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.04.20-06.06.31:710][409]Display: HotReload took  7.5s.
+[2025.04.20-06.06.31:710][409]Display: Reload/Re-instancing Complete: 1 package changed, 36 classes unchanged, 5 enums unchanged, 3 scriptstructs unchanged, 35 functions remapped, 3 scriptstructs remapped
+[2025.04.20-06.07.11:449][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.20-06.07.11:827][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-06.07.11:868][659]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameAbility/GA_Hero_HitReact] ([2] browsable assets)...
+[2025.04.20-06.07.11:868][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameAbility/GA_Hero_HitReact]
+[2025.04.20-06.07.11:868][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameAbility/GA_Hero_HitReact" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset" SILENT=true
+[2025.04.20-06.07.11:875][659]LogSavePackage: Moving output files for package: /Game/GameAbility/GA_Hero_HitReact
+[2025.04.20-06.07.11:876][659]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/GA_Hero_HitReactD1F7AF314945F7AE74C4A6B645212C1B.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset'
+[2025.04.20-06.07.11:883][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.269 ms (total: 1.59 sec)
+[2025.04.20-06.07.11:917][659]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.20-06.07.11:917][659]LogContentValidation: Enabled validators:
+[2025.04.20-06.07.11:917][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-06.07.11:917][659]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-06.07.11:917][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-06.07.11:917][659]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-06.07.11:917][659]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-06.07.11:917][659]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-06.07.11:917][659]AssetCheck: /Game/GameAbility/GA_Hero_HitReact Validating asset
+[2025.04.20-06.07.13:410][747]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.20-06.07.13:418][747]LogContentBundle: [Feature(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.20-06.07.13:418][747]LogWorldPartition: Display: GenerateStreaming for 'Feature' started...
+[2025.04.20-06.07.13:419][747]LogWorldPartition: Display: GenerateStreaming for 'Feature' took 1.608 ms (total: 15.963 ms)
+[2025.04.20-06.07.13:422][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.20-06.07.13:448][747]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.07.13:451][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003866s)
+[2025.04.20-06.07.13:451][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Feature.Feature to /Game/Maps/UEDPIE_0_Feature.Feature (0.003926s)
+[2025.04.20-06.07.13:500][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.20-06.07.13:510][747]LogChaosDD: Creating Chaos Debug Draw Scene for world Feature
+[2025.04.20-06.07.13:512][747]LogWorldPartition: ULevel::OnLevelLoaded(Feature)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.20-06.07.13:512][747]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.20-06.07.13:512][747]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Feature.Feature, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.20-06.07.13:512][747]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.20-06.07.13:513][747]LogWorldPartition: Display: WorldPartition initialize took 1.329 ms (total: 831.187 ms)
+[2025.04.20-06.07.13:513][747]LogPlayLevel: PIE: World Init took: (0.003024s)
+[2025.04.20-06.07.13:514][747]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.04.20-06.07.13:514][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.20-06.07.13:514][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.20-06.07.13:514][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.20-06.07.13:514][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.20-06.07.13:514][747]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.20-06.07.13:514][747]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.20-06.07.13:514][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.20-06.07.13:514][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.20-06.07.13:514][747]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.20-06.07.13:514][747]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.20-06.07.13:514][747]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.20-06.07.13:518][747]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.20-06.07.13:541][747]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N550)
+[2025.04.20-06.07.13:541][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.20-06.07.13:541][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.20-06.07.13:541][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.20-06.07.13:541][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.04.20-06.07.13:541][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.04.20-06.07.13:544][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.04.20-06.07.13:544][747]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.04.20-06.07.13:544][747]LogInit: FAudioDevice initialized with ID 7.
+[2025.04.20-06.07.13:544][747]LogAudio: Display: Audio Device (ID: 7) registered with world 'Feature'.
+[2025.04.20-06.07.13:544][747]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.04.20-06.07.13:548][747]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2025.04.20-06.07.13:550][747]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Feature.Feature up for play (max tick rate 60) at 2025.04.20-15.07.13
+[2025.04.20-06.07.13:552][747]LogWorld: Bringing up level for play took: 0.003467
+[2025.04.20-06.07.13:554][747]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.04.20-06.07.13:557][747]LogTemp: Warning: A weapon named : BP_HeroWeaponAxe_C_0 has been registered using the tag Player.Weapon.Axe
+[2025.04.20-06.07.13:558][747]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.13:559][747]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.13:559][747]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.13:559][747]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.13:559][747]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.13:559][747]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.13:560][747]PIE: Server logged in
+[2025.04.20-06.07.13:562][747]PIE: Play in editor total start time 0.144 seconds.
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_0 has been registered using the tag Enemy.Weapon
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_1 has been registered using the tag Enemy.Weapon
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-06.07.13:564][747]LogTemp: Warning: BP_Gruntling_Guardian2
+[2025.04.20-06.07.13:565][747]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-06.07.13:565][747]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_2 has been registered using the tag Enemy.Weapon
+[2025.04.20-06.07.13:565][747]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-06.07.13:565][747]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-06.07.13:565][747]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-06.07.13:565][747]LogTemp: Warning: BP_Gruntling_Guardian3
+[2025.04.20-06.07.13:565][747]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-06.07.14:741][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.07.14:741][803]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.07.14:743][803]LogWorld: UWorld::CleanupWorld for Feature, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.07.14:743][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.07.14:744][803]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Feature.Feature
+[2025.04.20-06.07.14:753][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.20-06.07.14:761][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.07.14:784][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.07.14:785][803]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.04.20-06.07.14:785][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.04.20-06.07.14:787][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.04.20-06.07.14:795][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.04.20-06.07.14:853][804]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.04.20-06.07.16:788][898]Cmd: DELETE
+[2025.04.20-06.07.16:788][898]Cmd: ACTOR DELETE
+[2025.04.20-06.07.16:825][898]LogEditorActor: Deleted Actor: BP_Gruntling_Guardian_C
+[2025.04.20-06.07.16:852][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.20-06.07.16:855][898]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2025.04.20-06.07.17:424][923]Cmd: DELETE
+[2025.04.20-06.07.17:424][923]Cmd: ACTOR DELETE
+[2025.04.20-06.07.17:425][923]LogEditorActor: Deleted Actor: BP_Gruntling_Guardian_C
+[2025.04.20-06.07.17:452][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.04.20-06.07.17:458][923]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2025.04.20-06.07.18:318][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.20-06.07.18:325][971]LogContentBundle: [Feature(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.20-06.07.18:325][971]LogWorldPartition: Display: GenerateStreaming for 'Feature' started...
+[2025.04.20-06.07.18:327][971]LogWorldPartition: Display: GenerateStreaming for 'Feature' took 1.607 ms (total: 17.570 ms)
+[2025.04.20-06.07.18:327][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.20-06.07.18:327][971]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.07.18:330][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003212s)
+[2025.04.20-06.07.18:330][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Feature.Feature to /Game/Maps/UEDPIE_0_Feature.Feature (0.003243s)
+[2025.04.20-06.07.18:351][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.20-06.07.18:357][971]LogChaosDD: Creating Chaos Debug Draw Scene for world Feature
+[2025.04.20-06.07.18:358][971]LogWorldPartition: ULevel::OnLevelLoaded(Feature)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.20-06.07.18:359][971]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.20-06.07.18:359][971]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Feature.Feature, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.20-06.07.18:359][971]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.20-06.07.18:359][971]LogWorldPartition: Display: WorldPartition initialize took 1.102 ms (total: 832.290 ms)
+[2025.04.20-06.07.18:360][971]LogPlayLevel: PIE: World Init took: (0.002726s)
+[2025.04.20-06.07.18:360][971]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.04.20-06.07.18:360][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.20-06.07.18:360][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.20-06.07.18:360][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.20-06.07.18:360][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.20-06.07.18:360][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.20-06.07.18:360][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.20-06.07.18:360][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.20-06.07.18:360][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.20-06.07.18:360][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.20-06.07.18:360][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.20-06.07.18:360][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.20-06.07.18:363][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.20-06.07.18:386][971]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N550)
+[2025.04.20-06.07.18:387][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.20-06.07.18:387][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.20-06.07.18:387][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.20-06.07.18:387][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.04.20-06.07.18:387][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.04.20-06.07.18:390][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.04.20-06.07.18:390][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.04.20-06.07.18:390][971]LogInit: FAudioDevice initialized with ID 8.
+[2025.04.20-06.07.18:390][971]LogAudio: Display: Audio Device (ID: 8) registered with world 'Feature'.
+[2025.04.20-06.07.18:390][971]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.04.20-06.07.18:393][971]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2025.04.20-06.07.18:394][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Feature.Feature up for play (max tick rate 60) at 2025.04.20-15.07.18
+[2025.04.20-06.07.18:395][971]LogWorld: Bringing up level for play took: 0.002411
+[2025.04.20-06.07.18:398][971]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.04.20-06.07.18:401][971]LogTemp: Warning: A weapon named : BP_HeroWeaponAxe_C_0 has been registered using the tag Player.Weapon.Axe
+[2025.04.20-06.07.18:402][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.18:402][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.18:402][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.18:402][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.18:402][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.18:402][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.07.18:404][971]PIE: Server logged in
+[2025.04.20-06.07.18:405][971]PIE: Play in editor total start time 0.08 seconds.
+[2025.04.20-06.07.18:408][971]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_0 has been registered using the tag Enemy.Weapon
+[2025.04.20-06.07.18:408][971]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.07.18:408][971]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.07.18:408][971]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.07.18:408][971]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.07.18:408][971]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-06.07.21:369][137]LogTemp: Warning: Found Ability
+[2025.04.20-06.07.22:088][180]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.07.22:088][180]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] Angle Diff : 63.478199 Tag : Shared.Status.HitReact.Right
+[2025.04.20-06.07.22:594][209]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3564.283447
+[2025.04.20-06.07.22:835][224]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-06.07.22:835][224]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3564.508789, Update Interval: 310.389709
+[2025.04.20-06.07.27:203][484]LogTemp: Warning: Found Ability
+[2025.04.20-06.07.27:927][527]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.07.27:927][527]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] Angle Diff : -35.796349 Tag : Shared.Status.HitReact.Front
+[2025.04.20-06.07.31:862][761]LogTemp: Warning: Found Ability
+[2025.04.20-06.07.32:596][805]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.07.32:596][805]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] Angle Diff : -92.873886 Tag : Shared.Status.HitReact.Left
+[2025.04.20-06.07.37:250][ 82]LogTemp: Warning: Found Ability
+[2025.04.20-06.07.37:965][125]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.07.37:965][125]LogBlueprintUserMessages: [GA_Hero_HitReact_C_0] Angle Diff : 163.51265 Tag : Shared.Status.HitReact.Back
+[2025.04.20-06.07.38:938][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.07.38:938][181]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.07.38:938][181]LogWorld: UWorld::CleanupWorld for Feature, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.07.38:939][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.07.38:939][181]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Feature.Feature
+[2025.04.20-06.07.38:943][181]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.20-06.07.38:955][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.07.38:990][181]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.20-06.07.38:990][181]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.04.20-06.07.38:991][181]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.04.20-06.07.38:993][181]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.04.20-06.07.38:999][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.07.39:001][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.04.20-06.07.39:050][182]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.04.20-06.08.04:922][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.04.20-06.08.04:926][319]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Feature' took 0.026
+[2025.04.20-06.09.22:192][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.04.20-06.09.38:451][723]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.003 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.20-06.10.09:002][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-06.10.09:032][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameAbility/GA_Hero_HitReact] ([2] browsable assets)...
+[2025.04.20-06.10.09:032][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameAbility/GA_Hero_HitReact]
+[2025.04.20-06.10.09:032][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameAbility/GA_Hero_HitReact" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset" SILENT=true
+[2025.04.20-06.10.09:037][459]LogSavePackage: Moving output files for package: /Game/GameAbility/GA_Hero_HitReact
+[2025.04.20-06.10.09:038][459]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/GA_Hero_HitReactB38B3288456E660D174DC1A42CD37F8F.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset'
+[2025.04.20-06.10.09:045][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.323 ms (total: 1.63 sec)
+[2025.04.20-06.10.09:076][459]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.20-06.10.09:076][459]LogContentValidation: Enabled validators:
+[2025.04.20-06.10.09:076][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-06.10.09:076][459]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-06.10.09:076][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-06.10.09:076][459]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-06.10.09:076][459]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-06.10.09:076][459]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-06.10.09:076][459]AssetCheck: /Game/GameAbility/GA_Hero_HitReact Validating asset
+[2025.04.20-06.10.20:604][629]LogSlate: Took 0.009776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.04.20-06.10.23:777][757]LogSlate: Window 'Change Variable Type' being destroyed
+[2025.04.20-06.10.27:502][970]LogSlate: Window 'Find in Blueprints' being destroyed
+[2025.04.20-06.10.27:508][970]LogSlate: Window 'Find in Blueprints' being destroyed
+[2025.04.20-06.10.46:671][ 14]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.04.20-06.11.14:662][577]LogClass: Warning: Type mismatch in Montages to Play of GA_Hero_HitReact_C - Previous (ArrayProperty) Current(ObjectProperty) in package: FObjectReader
+[2025.04.20-06.11.14:685][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.20-06.11.15:276][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.20-06.11.15:284][606]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-06.11.15:351][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.04.20-06.11.15:377][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.04.20-06.11.15:401][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.04.20-06.11.15:406][606]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameAbility/GA_Hero_HitReact] ([2] browsable assets)...
+[2025.04.20-06.11.15:406][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameAbility/GA_Hero_HitReact]
+[2025.04.20-06.11.15:406][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameAbility/GA_Hero_HitReact" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset" SILENT=true
+[2025.04.20-06.11.15:411][606]LogSavePackage: Moving output files for package: /Game/GameAbility/GA_Hero_HitReact
+[2025.04.20-06.11.15:412][606]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/GA_Hero_HitReact85385F1442C04423181582AC9D64DF1F.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset'
+[2025.04.20-06.11.15:423][606]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.040 ms (total: 1.77 sec)
+[2025.04.20-06.11.15:460][606]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.20-06.11.15:460][606]LogContentValidation: Enabled validators:
+[2025.04.20-06.11.15:460][606]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-06.11.15:460][606]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-06.11.15:460][606]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-06.11.15:460][606]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-06.11.15:460][606]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-06.11.15:460][606]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-06.11.15:460][606]AssetCheck: /Game/GameAbility/GA_Hero_HitReact Validating asset
+[2025.04.20-06.11.26:891][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.04.20-06.11.35:610][363]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-06.11.35:649][363]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameAbility/GA_Hero_HitReact] ([2] browsable assets)...
+[2025.04.20-06.11.35:649][363]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameAbility/GA_Hero_HitReact]
+[2025.04.20-06.11.35:649][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameAbility/GA_Hero_HitReact" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset" SILENT=true
+[2025.04.20-06.11.35:655][363]LogSavePackage: Moving output files for package: /Game/GameAbility/GA_Hero_HitReact
+[2025.04.20-06.11.35:656][363]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/GA_Hero_HitReactC172632F42143999447015B42CF94CF3.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/GameAbility/GA_Hero_HitReact.uasset'
+[2025.04.20-06.11.35:664][363]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.284 ms (total: 1.83 sec)
+[2025.04.20-06.11.35:705][363]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.20-06.11.35:705][363]LogContentValidation: Enabled validators:
+[2025.04.20-06.11.35:705][363]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-06.11.35:705][363]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-06.11.35:705][363]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-06.11.35:705][363]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-06.11.35:705][363]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-06.11.35:705][363]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-06.11.35:705][363]AssetCheck: /Game/GameAbility/GA_Hero_HitReact Validating asset
+[2025.04.20-06.11.37:059][443]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.20-06.11.37:066][443]LogContentBundle: [Feature(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.20-06.11.37:066][443]LogWorldPartition: Display: GenerateStreaming for 'Feature' started...
+[2025.04.20-06.11.37:068][443]LogWorldPartition: Display: GenerateStreaming for 'Feature' took 1.696 ms (total: 19.266 ms)
+[2025.04.20-06.11.37:068][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.20-06.11.37:068][443]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.11.37:072][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003025s)
+[2025.04.20-06.11.37:072][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Feature.Feature to /Game/Maps/UEDPIE_0_Feature.Feature (0.003056s)
+[2025.04.20-06.11.37:092][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.20-06.11.37:097][443]LogChaosDD: Creating Chaos Debug Draw Scene for world Feature
+[2025.04.20-06.11.37:099][443]LogWorldPartition: ULevel::OnLevelLoaded(Feature)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.20-06.11.37:099][443]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.20-06.11.37:099][443]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Feature.Feature, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.20-06.11.37:099][443]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.20-06.11.37:100][443]LogWorldPartition: Display: WorldPartition initialize took 1.044 ms (total: 833.334 ms)
+[2025.04.20-06.11.37:100][443]LogPlayLevel: PIE: World Init took: (0.002670s)
+[2025.04.20-06.11.37:100][443]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.04.20-06.11.37:100][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.20-06.11.37:100][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.20-06.11.37:100][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.20-06.11.37:100][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.20-06.11.37:100][443]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.20-06.11.37:100][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.20-06.11.37:100][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.20-06.11.37:100][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.20-06.11.37:100][443]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.20-06.11.37:100][443]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.20-06.11.37:100][443]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.20-06.11.37:103][443]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.20-06.11.37:128][443]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N550)
+[2025.04.20-06.11.37:128][443]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.20-06.11.37:128][443]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.20-06.11.37:128][443]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.20-06.11.37:128][443]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.04.20-06.11.37:129][443]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.04.20-06.11.37:131][443]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.04.20-06.11.37:131][443]LogInit: FAudioDevice initialized with ID 9.
+[2025.04.20-06.11.37:131][443]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.04.20-06.11.37:131][443]LogAudio: Display: Audio Device (ID: 9) registered with world 'Feature'.
+[2025.04.20-06.11.37:131][443]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.20-06.11.37:134][443]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2025.04.20-06.11.37:137][443]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Feature.Feature up for play (max tick rate 60) at 2025.04.20-15.11.37
+[2025.04.20-06.11.37:138][443]LogWorld: Bringing up level for play took: 0.002617
+[2025.04.20-06.11.37:140][443]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.04.20-06.11.37:142][443]LogTemp: Warning: A weapon named : BP_HeroWeaponAxe_C_0 has been registered using the tag Player.Weapon.Axe
+[2025.04.20-06.11.37:143][443]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.11.37:143][443]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.11.37:143][443]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.11.37:143][443]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.11.37:143][443]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.11.37:143][443]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.11.37:146][443]PIE: Server logged in
+[2025.04.20-06.11.37:147][443]PIE: Play in editor total start time 0.081 seconds.
+[2025.04.20-06.11.37:149][443]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_0 has been registered using the tag Enemy.Weapon
+[2025.04.20-06.11.37:149][443]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.11.37:149][443]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.11.37:149][443]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.11.37:149][443]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.11.37:149][443]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-06.11.38:791][530]LogTemp: Warning: Found Ability
+[2025.04.20-06.11.39:508][573]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.11.43:693][823]LogTemp: Warning: Found Ability
+[2025.04.20-06.11.44:293][859]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.11.48:124][ 88]LogTemp: Warning: Found Ability
+[2025.04.20-06.11.52:709][361]LogTemp: Warning: Found Ability
+[2025.04.20-06.11.53:293][396]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.11.56:762][603]LogTemp: Warning: Found Ability
+[2025.04.20-06.11.57:514][648]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.12.01:487][885]LogTemp: Warning: Found Ability
+[2025.04.20-06.12.02:058][919]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.12.10:526][426]LogTemp: Warning: Found Ability
+[2025.04.20-06.12.11:243][469]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.12.15:510][723]LogTemp: Warning: Found Ability
+[2025.04.20-06.12.16:094][758]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.12.16:878][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.12.16:879][803]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.12.16:879][803]LogWorld: UWorld::CleanupWorld for Feature, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.12.16:879][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.12.16:879][803]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Feature.Feature
+[2025.04.20-06.12.16:883][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.20-06.12.16:895][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.12.16:927][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.12.16:927][803]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.20-06.12.16:927][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.20-06.12.16:931][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.20-06.12.16:937][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.20-06.12.16:983][804]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.04.20-06.13.28:497][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.04.20-06.13.32:320][340]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3934.009766
+[2025.04.20-06.13.32:553][354]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-06.13.32:553][354]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3934.227295, Update Interval: 310.512390
+[2025.04.20-06.13.36:749][602]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.04.20-06.13.36:792][603]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.04.20-06.13.38:577][704]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Anim/ABP_Hero.ABP_Hero
+[2025.04.20-06.13.38:581][704]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.04.20-06.13.38:592][704]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.04.20-06.13.38:602][704]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.20-06.13.38:913][704]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2025.04.20-06.15.35:697][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.20-06.15.40:745][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.20-06.15.43:186][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.20-06.15.43:560][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-06.15.43:599][166]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Anim/ABP_Hero] ([2] browsable assets)...
+[2025.04.20-06.15.43:605][166]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Anim/ABP_Hero.ABP_Hero]
+[2025.04.20-06.15.43:605][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anim/ABP_Hero]
+[2025.04.20-06.15.43:605][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anim/ABP_Hero" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Anim/ABP_Hero.uasset" SILENT=true
+[2025.04.20-06.15.43:630][166]LogSavePackage: Moving output files for package: /Game/Anim/ABP_Hero
+[2025.04.20-06.15.43:631][166]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/ABP_HeroD06B699044856EFD19A9F79172D2AFF1.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Anim/ABP_Hero.uasset'
+[2025.04.20-06.15.43:642][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.198 ms (total: 1.91 sec)
+[2025.04.20-06.15.43:674][166]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.20-06.15.43:674][166]LogContentValidation: Enabled validators:
+[2025.04.20-06.15.43:674][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-06.15.43:674][166]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-06.15.43:674][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-06.15.43:674][166]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-06.15.43:674][166]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-06.15.43:674][166]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-06.15.43:674][166]AssetCheck: /Game/Anim/ABP_Hero Validating asset
+[2025.04.20-06.15.49:864][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-06.15.49:924][281]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anim/ABP_Hero] ([2] browsable assets)...
+[2025.04.20-06.15.49:924][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anim/ABP_Hero]
+[2025.04.20-06.15.49:924][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anim/ABP_Hero" FILE="../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Anim/ABP_Hero.uasset" SILENT=true
+[2025.04.20-06.15.49:947][281]LogSavePackage: Moving output files for package: /Game/Anim/ABP_Hero
+[2025.04.20-06.15.49:948][281]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/ABP_Hero66175A6D483CA4BF20C51B9CDBD65E56.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Anim/ABP_Hero.uasset'
+[2025.04.20-06.15.49:955][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 91.334 ms (total: 2.00 sec)
+[2025.04.20-06.15.50:015][281]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.20-06.15.50:015][281]LogContentValidation: Enabled validators:
+[2025.04.20-06.15.50:015][281]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-06.15.50:015][281]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-06.15.50:015][281]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-06.15.50:015][281]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-06.15.50:015][281]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-06.15.50:015][281]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-06.15.50:015][281]AssetCheck: /Game/Anim/ABP_Hero Validating asset
+[2025.04.20-06.15.51:033][337]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.20-06.15.51:043][337]LogContentBundle: [Feature(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.20-06.15.51:043][337]LogWorldPartition: Display: GenerateStreaming for 'Feature' started...
+[2025.04.20-06.15.51:045][337]LogWorldPartition: Display: GenerateStreaming for 'Feature' took 1.769 ms (total: 21.036 ms)
+[2025.04.20-06.15.51:045][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.20-06.15.51:045][337]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.15.51:051][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005397s)
+[2025.04.20-06.15.51:051][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Feature.Feature to /Game/Maps/UEDPIE_0_Feature.Feature (0.005441s)
+[2025.04.20-06.15.51:089][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.04.20-06.15.51:094][337]LogChaosDD: Creating Chaos Debug Draw Scene for world Feature
+[2025.04.20-06.15.51:097][337]LogWorldPartition: ULevel::OnLevelLoaded(Feature)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.20-06.15.51:097][337]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.20-06.15.51:097][337]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Feature.Feature, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.20-06.15.51:097][337]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.20-06.15.51:098][337]LogWorldPartition: Display: WorldPartition initialize took 1.204 ms (total: 834.539 ms)
+[2025.04.20-06.15.51:098][337]LogPlayLevel: PIE: World Init took: (0.003090s)
+[2025.04.20-06.15.51:099][337]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.04.20-06.15.51:099][337]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.20-06.15.51:099][337]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.20-06.15.51:099][337]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.20-06.15.51:099][337]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.20-06.15.51:099][337]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.20-06.15.51:099][337]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.20-06.15.51:099][337]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.20-06.15.51:099][337]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.20-06.15.51:099][337]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.20-06.15.51:099][337]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.20-06.15.51:099][337]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.20-06.15.51:101][337]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.20-06.15.51:128][337]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N550)
+[2025.04.20-06.15.51:128][337]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.20-06.15.51:128][337]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.20-06.15.51:128][337]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.20-06.15.51:128][337]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.04.20-06.15.51:128][337]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.04.20-06.15.51:133][337]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.04.20-06.15.51:133][337]LogInit: FAudioDevice initialized with ID 10.
+[2025.04.20-06.15.51:133][337]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.04.20-06.15.51:133][337]LogAudio: Display: Audio Device (ID: 10) registered with world 'Feature'.
+[2025.04.20-06.15.51:133][337]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.04.20-06.15.51:137][337]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2025.04.20-06.15.51:139][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Feature.Feature up for play (max tick rate 60) at 2025.04.20-15.15.51
+[2025.04.20-06.15.51:141][337]LogWorld: Bringing up level for play took: 0.003745
+[2025.04.20-06.15.51:144][337]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2025.04.20-06.15.51:148][337]LogTemp: Warning: A weapon named : BP_HeroWeaponAxe_C_0 has been registered using the tag Player.Weapon.Axe
+[2025.04.20-06.15.51:150][337]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.15.51:150][337]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.15.51:150][337]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.15.51:150][337]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.15.51:150][337]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.15.51:150][337]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.15.51:155][337]PIE: Server logged in
+[2025.04.20-06.15.51:157][337]PIE: Play in editor total start time 0.115 seconds.
+[2025.04.20-06.15.51:162][337]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_0 has been registered using the tag Enemy.Weapon
+[2025.04.20-06.15.51:163][337]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.15.51:163][337]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.15.51:163][337]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.15.51:163][337]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.15.51:163][337]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-06.15.52:808][418]LogTemp: Warning: Found Ability
+[2025.04.20-06.15.53:516][460]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.16.11:418][517]LogTemp: Warning: Found Ability
+[2025.04.20-06.16.12:145][560]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.16.13:337][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.16.13:338][629]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.16.13:338][629]LogWorld: UWorld::CleanupWorld for Feature, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.16.13:338][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.16.13:338][629]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Feature.Feature
+[2025.04.20-06.16.13:342][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.20-06.16.13:350][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.16.13:388][629]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.20-06.16.13:388][629]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.04.20-06.16.13:388][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.04.20-06.16.13:390][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.04.20-06.16.13:396][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.16.13:399][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.04.20-06.16.13:450][630]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2025.04.20-06.18.03:756][102]LogSlate: Window 'ABP_Hero' being destroyed
+[2025.04.20-06.18.03:762][102]LogSlate: Window 'ABP_Hero' being destroyed
+[2025.04.20-06.18.03:892][102]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.18.03:892][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.18.03:994][102]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.18.03:996][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.18.04:022][102]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.18.04:022][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.18.04:123][102]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.18.04:123][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.18.04:173][102]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.18.04:173][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.18.04:193][102]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.18.04:193][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.18.04:257][102]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.18.04:257][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.18.04:314][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.04.20-06.18.08:322][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2025.04.20-06.18.08:330][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.20-06.18.08:614][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2025.04.20-06.18.08:735][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_32
+[2025.04.20-06.18.08:743][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.20-06.18.08:955][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_33
+[2025.04.20-06.18.09:009][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2025.04.20-06.18.09:019][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.20-06.18.09:231][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_35
+[2025.04.20-06.18.09:286][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_36
+[2025.04.20-06.18.09:298][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.20-06.18.09:513][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_37
+[2025.04.20-06.18.26:632][226]LogStreaming: Display: FlushAsyncLoading(604): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.20-06.19.31:474][859]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4293.153809
+[2025.04.20-06.19.31:737][874]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-06.19.31:737][874]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4293.390625, Update Interval: 301.713928
+[2025.04.20-06.19.32:486][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-06.19.32:555][919]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Montages/HitReact/AM_Hero_HitReact_Right] ([1] browsable assets)...
+[2025.04.20-06.19.32:593][919]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Montages/HitReact/AM_Hero_HitReact_Right.AM_Hero_HitReact_Right]
+[2025.04.20-06.19.32:593][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/Montages/HitReact/AM_Hero_HitReact_Right]
+[2025.04.20-06.19.32:595][919]LogSavePackage: Moving output files for package: /Game/Montages/HitReact/AM_Hero_HitReact_Right
+[2025.04.20-06.19.32:595][919]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/AM_Hero_HitReact_RightC40AE3374E1D2C361947A7AEA6685960.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Montages/HitReact/AM_Hero_HitReact_Right.uasset'
+[2025.04.20-06.19.32:604][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.545 ms (total: 2.12 sec)
+[2025.04.20-06.19.32:665][919]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.20-06.19.32:665][919]LogContentValidation: Enabled validators:
+[2025.04.20-06.19.32:665][919]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-06.19.32:665][919]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-06.19.32:665][919]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-06.19.32:665][919]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-06.19.32:665][919]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-06.19.32:665][919]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-06.19.32:665][919]AssetCheck: /Game/Montages/HitReact/AM_Hero_HitReact_Right Validating asset
+[2025.04.20-06.19.33:089][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.20-06.19.33:101][941]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.20-06.19.33:157][941]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Montages/HitReact/AM_Hero_HitReact_Left] ([1] browsable assets)...
+[2025.04.20-06.19.33:163][941]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Montages/HitReact/AM_Hero_HitReact_Left.AM_Hero_HitReact_Left]
+[2025.04.20-06.19.33:163][941]OBJ SavePackage: Finished generating thumbnails for package [/Game/Montages/HitReact/AM_Hero_HitReact_Left]
+[2025.04.20-06.19.33:165][941]LogSavePackage: Moving output files for package: /Game/Montages/HitReact/AM_Hero_HitReact_Left
+[2025.04.20-06.19.33:165][941]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/AM_Hero_HitReact_Left2B70E7EC49A1509B5F4FDFB9A8C5953B.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Montages/HitReact/AM_Hero_HitReact_Left.uasset'
+[2025.04.20-06.19.33:166][941]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Montages/HitReact/AM_Hero_HitReact_Front] ([1] browsable assets)...
+[2025.04.20-06.19.33:172][941]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Montages/HitReact/AM_Hero_HitReact_Front.AM_Hero_HitReact_Front]
+[2025.04.20-06.19.33:172][941]OBJ SavePackage: Finished generating thumbnails for package [/Game/Montages/HitReact/AM_Hero_HitReact_Front]
+[2025.04.20-06.19.33:175][941]LogSavePackage: Moving output files for package: /Game/Montages/HitReact/AM_Hero_HitReact_Front
+[2025.04.20-06.19.33:175][941]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/AM_Hero_HitReact_FrontCA8B0C7445F9D805673F9383F451D850.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Montages/HitReact/AM_Hero_HitReact_Front.uasset'
+[2025.04.20-06.19.33:177][941]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Montages/HitReact/AM_Hero_HitReact_Back] ([1] browsable assets)...
+[2025.04.20-06.19.33:183][941]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Montages/HitReact/AM_Hero_HitReact_Back.AM_Hero_HitReact_Back]
+[2025.04.20-06.19.33:183][941]OBJ SavePackage: Finished generating thumbnails for package [/Game/Montages/HitReact/AM_Hero_HitReact_Back]
+[2025.04.20-06.19.33:185][941]LogSavePackage: Moving output files for package: /Game/Montages/HitReact/AM_Hero_HitReact_Back
+[2025.04.20-06.19.33:185][941]LogSavePackage: Moving '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Saved/AM_Hero_HitReact_Back8777F2554658D78ADC9915B2A0B8E26B.tmp' to '../../../../../../Users/user/Desktop/PRJ_Warrior/Warrior/Content/Montages/HitReact/AM_Hero_HitReact_Back.uasset'
+[2025.04.20-06.19.33:194][941]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.414 ms (total: 2.21 sec)
+[2025.04.20-06.19.33:269][941]LogContentValidation: Display: Starting to validate 3 assets
+[2025.04.20-06.19.33:269][941]LogContentValidation: Enabled validators:
+[2025.04.20-06.19.33:269][941]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.20-06.19.33:269][941]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.20-06.19.33:269][941]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.20-06.19.33:269][941]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.20-06.19.33:269][941]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.20-06.19.33:270][941]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.20-06.19.33:270][941]AssetCheck: /Game/Montages/HitReact/AM_Hero_HitReact_Left Validating asset
+[2025.04.20-06.19.33:270][941]AssetCheck: /Game/Montages/HitReact/AM_Hero_HitReact_Front Validating asset
+[2025.04.20-06.19.33:270][941]AssetCheck: /Game/Montages/HitReact/AM_Hero_HitReact_Back Validating asset
+[2025.04.20-06.19.33:738][961]LogSlate: Window 'AM_Hero_HitReact_Right' being destroyed
+[2025.04.20-06.19.33:745][961]LogSlate: Window 'AM_Hero_HitReact_Right' being destroyed
+[2025.04.20-06.19.33:786][961]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.33:786][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.33:843][961]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.33:843][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.33:888][961]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.33:888][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.33:944][961]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.33:945][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.33:990][961]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.33:990][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.34:047][961]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.34:048][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.34:117][961]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.34:117][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.34:182][961]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.34:183][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.34:215][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.20-06.19.34:459][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.20-06.19.34:465][971]LogContentBundle: [Feature(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.20-06.19.34:465][971]LogWorldPartition: Display: GenerateStreaming for 'Feature' started...
+[2025.04.20-06.19.34:467][971]LogWorldPartition: Display: GenerateStreaming for 'Feature' took 1.971 ms (total: 23.008 ms)
+[2025.04.20-06.19.34:467][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.20-06.19.34:467][971]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.19.34:470][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002954s)
+[2025.04.20-06.19.34:470][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Feature.Feature to /Game/Maps/UEDPIE_0_Feature.Feature (0.002992s)
+[2025.04.20-06.19.34:492][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.20-06.19.34:494][971]LogChaosDD: Creating Chaos Debug Draw Scene for world Feature
+[2025.04.20-06.19.34:495][971]LogWorldPartition: ULevel::OnLevelLoaded(Feature)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.20-06.19.34:495][971]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.20-06.19.34:495][971]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Feature.Feature, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.20-06.19.34:495][971]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.20-06.19.34:496][971]LogWorldPartition: Display: WorldPartition initialize took 1.127 ms (total: 835.667 ms)
+[2025.04.20-06.19.34:496][971]LogPlayLevel: PIE: World Init took: (0.002837s)
+[2025.04.20-06.19.34:497][971]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.04.20-06.19.34:497][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.20-06.19.34:497][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.20-06.19.34:497][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.20-06.19.34:497][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.20-06.19.34:497][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.20-06.19.34:497][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.20-06.19.34:497][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.20-06.19.34:497][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.20-06.19.34:497][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.20-06.19.34:497][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.20-06.19.34:497][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.20-06.19.34:499][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.20-06.19.34:523][971]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N550)
+[2025.04.20-06.19.34:523][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.20-06.19.34:523][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.20-06.19.34:523][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.20-06.19.34:524][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.04.20-06.19.34:524][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.04.20-06.19.34:528][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.04.20-06.19.34:528][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.04.20-06.19.34:528][971]LogInit: FAudioDevice initialized with ID 11.
+[2025.04.20-06.19.34:528][971]LogAudio: Display: Audio Device (ID: 11) registered with world 'Feature'.
+[2025.04.20-06.19.34:528][971]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.20-06.19.34:531][971]LogLoad: Game class is 'BP_BaseGameMode_C'
+[2025.04.20-06.19.34:532][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Feature.Feature up for play (max tick rate 60) at 2025.04.20-15.19.34
+[2025.04.20-06.19.34:533][971]LogWorld: Bringing up level for play took: 0.002521
+[2025.04.20-06.19.34:536][971]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2025.04.20-06.19.34:538][971]LogTemp: Warning: A weapon named : BP_HeroWeaponAxe_C_0 has been registered using the tag Player.Weapon.Axe
+[2025.04.20-06.19.34:539][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.19.34:539][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.19.34:539][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.19.34:539][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.19.34:539][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.19.34:539][971]LogTemp: Warning: BP_HeroCharacter_C_0
+[2025.04.20-06.19.34:541][971]PIE: Server logged in
+[2025.04.20-06.19.34:542][971]PIE: Play in editor total start time 0.077 seconds.
+[2025.04.20-06.19.34:544][971]LogTemp: Warning: A weapon named : BP_Enemy_Weapon_C_0 has been registered using the tag Enemy.Weapon
+[2025.04.20-06.19.34:544][971]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.19.34:544][971]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.19.34:544][971]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.19.34:544][971]LogTemp: Warning: BP_Gruntling_Guardian
+[2025.04.20-06.19.34:544][971]LogTemp: Warning: Enemy StartUpData Loaded
+[2025.04.20-06.19.36:184][ 61]LogTemp: Warning: Found Ability
+[2025.04.20-06.19.36:767][ 96]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.19.40:170][300]LogTemp: Warning: Found Ability
+[2025.04.20-06.19.40:753][335]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.19.44:686][571]LogTemp: Warning: Found Ability
+[2025.04.20-06.19.45:287][607]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.19.49:344][850]LogTemp: Warning: Found Ability
+[2025.04.20-06.19.50:046][892]LogTemp: Warning: BP_HeroCharacter0
+[2025.04.20-06.19.51:048][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.19.51:048][950]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Feature
+[2025.04.20-06.19.51:048][950]LogWorld: UWorld::CleanupWorld for Feature, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.51:049][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.51:049][950]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Feature.Feature
+[2025.04.20-06.19.51:054][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.20-06.19.51:070][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.51:098][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.20-06.19.51:098][950]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.20-06.19.51:098][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.20-06.19.51:100][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.20-06.19.51:111][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.20-06.19.51:162][951]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.04.20-06.19.52:334][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.20-06.19.52:995][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.20-06.19.53:068][ 55]LogStall: Shutdown...
+[2025.04.20-06.19.53:068][ 55]LogStall: Shutdown complete.
+[2025.04.20-06.19.53:125][ 55]LogSlate: Window 'Warrior - Unreal Editor' being destroyed
+[2025.04.20-06.19.53:132][ 55]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.04.20-06.19.53:515][ 55]Cmd: QUIT_EDITOR
+[2025.04.20-06.19.53:516][ 55]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.04.20-06.19.53:528][ 56]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.04.20-06.19.53:529][ 56]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.04.20-06.19.53:529][ 56]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.04.20-06.19.53:533][ 56]LogWorld: UWorld::CleanupWorld for Feature, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:533][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:533][ 56]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/Feature.Feature
+[2025.04.20-06.19.53:578][ 56]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.04.20-06.19.53:586][ 56]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.04.20-06.19.53:597][ 56]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:597][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:603][ 56]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:603][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:612][ 56]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:612][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:621][ 56]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:622][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:639][ 56]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:639][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:649][ 56]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:649][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:653][ 56]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:653][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:658][ 56]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:658][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:664][ 56]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:664][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:670][ 56]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:670][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:676][ 56]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:676][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:687][ 56]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:687][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:695][ 56]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.04.20-06.19.53:695][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.20-06.19.53:726][ 56]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.04.20-06.19.53:738][ 56]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.04.20-06.19.53:739][ 56]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.04.20-06.19.53:739][ 56]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.04.20-06.19.53:768][ 56]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.04.20-06.19.53:768][ 56]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.04.20-06.19.53:768][ 56]LogAudio: Display: Audio Device unregistered from world 'Feature'.
+[2025.04.20-06.19.53:769][ 56]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.04.20-06.19.53:769][ 56]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.20-06.19.53:775][ 56]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.20-06.19.53:796][ 56]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.04.20-06.19.53:796][ 56]LogAudio: Display: Audio Device Manager Shutdown
+[2025.04.20-06.19.53:804][ 56]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.04.20-06.19.53:805][ 56]LogExit: Preparing to exit.
+[2025.04.20-06.19.53:888][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.04.20-06.19.53:940][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:940][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:942][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.53:943][ 56]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.20-06.19.54:711][ 56]LogEditorDataStorage: Deinitializing
+[2025.04.20-06.19.54:950][ 56]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.04.20-06.19.55:040][ 56]LogExit: Editor shut down
+[2025.04.20-06.19.55:051][ 56]LogExit: Transaction tracking system shut down
+[2025.04.20-06.19.55:579][ 56]LogExit: Object subsystem successfully closed.
+[2025.04.20-06.19.55:653][ 56]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.04.20-06.19.56:210][ 56]LogMemoryProfiler: Shutdown
+[2025.04.20-06.19.56:210][ 56]LogNetworkingProfiler: Shutdown
+[2025.04.20-06.19.56:211][ 56]LoadingProfiler: Shutdown
+[2025.04.20-06.19.56:211][ 56]LogTimingProfiler: Shutdown
+[2025.04.20-06.19.56:808][ 56]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.04.20-06.19.56:810][ 56]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.04.20-06.19.56:811][ 56]LogNFORDenoise: NFORDenoise function shutting down
+[2025.04.20-06.19.56:812][ 56]RenderDocPlugin: plugin has been unloaded.
+[2025.04.20-06.19.56:854][ 56]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.04.20-06.19.56:854][ 56]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0521EC4C-4003-8465-4F33-3B9B2BC045E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=61b22d9a4df0f8a049ee0cb28cf080e4%7Cb428197ad01e437d8cf1c14ade7e54be%7C22e38fbc-75ac-4ad9-b3ca-56d5b0779450&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.04.20-06.19.57:932][ 56]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.04.20-06.19.57:947][ 56]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.04.20-06.19.57:964][ 56]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.04.20-06.19.57:964][ 56]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.04.20-06.19.57:966][ 56]LogPakFile: Destroying PakPlatformFile
+[2025.04.20-06.19.58:704][ 56]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.04.20-06.19.58:770][ 56]LogExit: Exiting.
+[2025.04.20-06.19.58:800][ 56]Log file closed, 04/20/25 15:19:58

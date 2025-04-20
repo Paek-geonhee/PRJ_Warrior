@@ -72,7 +72,14 @@
             "c:\\users\\user\\desktop\\prj_warrior\\warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\warrior\\uht\\warriorstructtypes.generated.h",
             "c:\\users\\user\\desktop\\prj_warrior\\warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\warrior\\uht\\warriorabilitysystemcomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\genericteamagentinterface.h",
-            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\genericteamagentinterface.generated.h"
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\genericteamagentinterface.generated.h",
+            "c:\\users\\user\\desktop\\prj_warrior\\warrior\\source\\warrior\\public\\character\\input\\warriorgameplaytags.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\gameplaytags\\public\\nativegameplaytags.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagsmanager.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagsmanager.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

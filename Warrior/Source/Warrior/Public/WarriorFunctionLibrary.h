@@ -45,4 +45,7 @@ public:
 
 	UFUNCTION(BlueprintPure, Category = "Warrior|FunctionLibrary", meta = (CompactNodeTitle = "Get Value At Level"))
 	static float GetScalableFloatValueAtLevel(const FScalableFloat& ScalableFloat, float InLevel = 1);
+
+	UFUNCTION(BlueprintPure, Category = "Warrior|FunctionLibrary")
+	static FGameplayTag ComputeHitReactDirectionTag(AActor* InAttack, AActor* InVictim, float& OutAngleDiff);
 };
