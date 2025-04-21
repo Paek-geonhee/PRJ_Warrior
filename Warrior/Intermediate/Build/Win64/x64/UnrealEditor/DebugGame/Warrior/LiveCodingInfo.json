@@ -44,11 +44,9 @@
 			"WarriorGameplayAbility.cpp.obj",
 			"WarriorHeroGameplayAbility.cpp.obj",
 			"GEExactCalc_DamageTaken.cpp.obj",
-			"WarriorAbilitySystemComponent.cpp.obj",
 			"WarriorAttributeSet.cpp.obj",
 			"BTService_OrientToTargetActor.cpp.obj",
 			"BTTask_RotateToFaceTarget.cpp.obj",
-			"EnemyCombatComponent.cpp.obj",
 			"HeroCombatComponent.cpp.obj",
 			"PawnCombatComponent.cpp.obj",
 			"PawnExtensionComponentBase.cpp.obj",
@@ -79,6 +77,8 @@
 			"Warrior.cpp.obj",
 			"Warrior.init.gen.cpp.obj",
 			"WarriorFunctionLibrary.gen.cpp.obj",
+			"WarriorAbilitySystemComponent.cpp.obj",
+			"EnemyCombatComponent.cpp.obj",
 			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameplayTags.cpp.obj"
 		]

@@ -38,10 +38,8 @@
 /NOIMPLIB
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\WarriorEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\Module.Warrior.cpp.obj"
-"C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\WarriorFunctionLibrary.cpp.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\WarriorGameplayTags.cpp.obj"
-"C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\Warrior.init.gen.cpp.obj"
-"C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\WarriorFunctionLibrary.gen.cpp.obj"
+"C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\WarriorAbilitySystemComponent.cpp.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"

@@ -43,7 +43,6 @@
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/AbilitySystem/Abilities/WarriorGameplayAbility.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/AbilitySystem/Abilities/WarriorHeroGameplayAbility.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/AbilitySystem/GEExactCalc/GEExactCalc_DamageTaken.cpp"
-#include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/AbilitySystem/WarriorAbilitySystemComponent.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/AbilitySystem/WarriorAttributeSet.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/AI/BTService_OrientToTargetActor.cpp"
 #include "C:/Users/user/Desktop/PRJ_Warrior/Warrior/Source/Warrior/Private/AI/BTTask_RotateToFaceTarget.cpp"
