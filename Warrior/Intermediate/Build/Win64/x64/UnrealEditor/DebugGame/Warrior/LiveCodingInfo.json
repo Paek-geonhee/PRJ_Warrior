@@ -18,6 +18,7 @@
 			"PawnExtensionComponentBase.gen.cpp.obj",
 			"PawnUIComponent.gen.cpp.obj",
 			"PawnUIInterface.gen.cpp.obj",
+			"Warrior.init.gen.cpp.obj",
 			"WarriorAbilitySystemComponent.gen.cpp.obj",
 			"WarriorAIController.gen.cpp.obj",
 			"WarriorAttributeSet.gen.cpp.obj",
@@ -27,6 +28,7 @@
 			"WarriorEnemyCharacter.gen.cpp.obj",
 			"WarriorEnemyGameplayAbility.gen.cpp.obj",
 			"WarriorEnumTypes.gen.cpp.obj",
+			"WarriorFunctionLibrary.gen.cpp.obj",
 			"WarriorGameModeBase.gen.cpp.obj",
 			"WarriorGameplayAbility.gen.cpp.obj",
 			"WarriorHeroAnimInstance.gen.cpp.obj",
@@ -44,9 +46,11 @@
 			"WarriorGameplayAbility.cpp.obj",
 			"WarriorHeroGameplayAbility.cpp.obj",
 			"GEExactCalc_DamageTaken.cpp.obj",
+			"WarriorAbilitySystemComponent.cpp.obj",
 			"WarriorAttributeSet.cpp.obj",
 			"BTService_OrientToTargetActor.cpp.obj",
 			"BTTask_RotateToFaceTarget.cpp.obj",
+			"EnemyCombatComponent.cpp.obj",
 			"HeroCombatComponent.cpp.obj",
 			"PawnCombatComponent.cpp.obj",
 			"PawnExtensionComponentBase.cpp.obj",
@@ -66,7 +70,9 @@
 			"WarriorBaseAnimInstance.cpp.obj",
 			"WarriorBaseCharacter.cpp.obj",
 			"WarriorCharacterAnimInstance.cpp.obj",
+			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameModeBase.cpp.obj",
+			"WarriorGameplayTags.cpp.obj",
 			"WarriorHeroAnimInstance.cpp.obj",
 			"WarriorHeroCharacter.cpp.obj",
 			"WarriorHeroController.cpp.obj",
@@ -74,13 +80,7 @@
 			"WarriorInputComponent.cpp.obj",
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
-			"Warrior.cpp.obj",
-			"Warrior.init.gen.cpp.obj",
-			"WarriorFunctionLibrary.gen.cpp.obj",
-			"WarriorAbilitySystemComponent.cpp.obj",
-			"EnemyCombatComponent.cpp.obj",
-			"WarriorFunctionLibrary.cpp.obj",
-			"WarriorGameplayTags.cpp.obj"
+			"Warrior.cpp.obj"
 		]
 	}
 }
