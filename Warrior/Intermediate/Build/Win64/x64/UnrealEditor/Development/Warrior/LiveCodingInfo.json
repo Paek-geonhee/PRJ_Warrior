@@ -45,6 +45,7 @@
 			"WarriorGameplayAbility.cpp.obj",
 			"WarriorHeroGameplayAbility.cpp.obj",
 			"GEExactCalc_DamageTaken.cpp.obj",
+			"WarriorAbilitySystemComponent.cpp.obj",
 			"WarriorAttributeSet.cpp.obj",
 			"BTService_OrientToTargetActor.cpp.obj",
 			"BTTask_RotateToFaceTarget.cpp.obj",
@@ -70,6 +71,7 @@
 			"WarriorCharacterAnimInstance.cpp.obj",
 			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameModeBase.cpp.obj",
+			"WarriorGameplayTags.cpp.obj",
 			"WarriorHeroAnimInstance.cpp.obj",
 			"WarriorHeroCharacter.cpp.obj",
 			"WarriorHeroController.cpp.obj",
@@ -78,11 +80,11 @@
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
 			"Warrior.cpp.obj",
+			"AbilityTask_ExecuteTaskOnTick.gen.cpp.obj",
 			"HeroGameplayAbility_TargetLock.gen.cpp.obj",
 			"Warrior.init.gen.cpp.obj",
 			"HeroGameplayAbility_TargetLock.cpp.obj",
-			"WarriorAbilitySystemComponent.cpp.obj",
-			"WarriorGameplayTags.cpp.obj"
+			"AbilityTask_ExecuteTaskOnTick.cpp.obj"
 		]
 	}
 }

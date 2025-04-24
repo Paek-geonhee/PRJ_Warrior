@@ -19,7 +19,6 @@
 			"PawnExtensionComponentBase.gen.cpp.obj",
 			"PawnUIComponent.gen.cpp.obj",
 			"PawnUIInterface.gen.cpp.obj",
-			"Warrior.init.gen.cpp.obj",
 			"WarriorAbilitySystemComponent.gen.cpp.obj",
 			"WarriorAIController.gen.cpp.obj",
 			"WarriorAttributeSet.gen.cpp.obj",
@@ -82,7 +81,10 @@
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
 			"Warrior.cpp.obj",
-			"HeroGameplayAbility_TargetLock.cpp.obj"
+			"AbilityTask_ExecuteTaskOnTick.gen.cpp.obj",
+			"Warrior.init.gen.cpp.obj",
+			"HeroGameplayAbility_TargetLock.cpp.obj",
+			"AbilityTask_ExecuteTaskOnTick.cpp.obj"
 		]
 	}
 }

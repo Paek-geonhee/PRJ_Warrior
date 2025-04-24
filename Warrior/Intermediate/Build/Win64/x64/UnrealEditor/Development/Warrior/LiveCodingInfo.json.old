@@ -12,6 +12,7 @@
 			"EnemyUIComponent.gen.cpp.obj",
 			"GEExactCalc_DamageTaken.gen.cpp.obj",
 			"HeroCombatComponent.gen.cpp.obj",
+			"HeroGameplayAbility_TargetLock.gen.cpp.obj",
 			"HeroUIComponent.gen.cpp.obj",
 			"PawnCombatComponent.gen.cpp.obj",
 			"PawnCombatInterface.gen.cpp.obj",
@@ -41,6 +42,7 @@
 			"WarriorWeaponBase.gen.cpp.obj",
 			"WarriorWidgetBase.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"HeroGameplayAbility_TargetLock.cpp.obj",
 			"WarriorEnemyGameplayAbility.cpp.obj",
 			"WarriorGameplayAbility.cpp.obj",
 			"WarriorHeroGameplayAbility.cpp.obj",
@@ -71,6 +73,7 @@
 			"WarriorCharacterAnimInstance.cpp.obj",
 			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameModeBase.cpp.obj",
+			"WarriorGameplayTags.cpp.obj",
 			"WarriorHeroAnimInstance.cpp.obj",
 			"WarriorHeroCharacter.cpp.obj",
 			"WarriorHeroController.cpp.obj",
@@ -79,10 +82,9 @@
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
 			"Warrior.cpp.obj",
-			"HeroGameplayAbility_TargetLock.gen.cpp.obj",
+			"AbilityTask_ExecuteTaskOnTick.gen.cpp.obj",
 			"Warrior.init.gen.cpp.obj",
-			"HeroGameplayAbility_TargetLock.cpp.obj",
-			"WarriorGameplayTags.cpp.obj"
+			"AbilityTask_ExecuteTaskOnTick.cpp.obj"
 		]
 	}
 }

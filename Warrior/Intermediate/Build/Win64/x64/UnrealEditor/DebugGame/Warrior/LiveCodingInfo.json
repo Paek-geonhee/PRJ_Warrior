@@ -80,9 +80,11 @@
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
 			"Warrior.cpp.obj",
+			"AbilityTask_ExecuteTaskOnTick.gen.cpp.obj",
 			"HeroGameplayAbility_TargetLock.gen.cpp.obj",
 			"Warrior.init.gen.cpp.obj",
-			"HeroGameplayAbility_TargetLock.cpp.obj"
+			"HeroGameplayAbility_TargetLock.cpp.obj",
+			"AbilityTask_ExecuteTaskOnTick.cpp.obj"
 		]
 	}
 }
