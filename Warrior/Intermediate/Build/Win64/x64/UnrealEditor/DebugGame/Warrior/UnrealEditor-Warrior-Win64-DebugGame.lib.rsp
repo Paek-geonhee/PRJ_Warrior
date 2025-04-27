@@ -8,6 +8,8 @@
 /NODEFAULTLIB
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\WarriorEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Warrior\Module.Warrior.cpp.obj"
+"C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Warrior\WarriorGameplayTags.cpp.obj"
+"C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Warrior\WarriorHeroCharacter.cpp.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Warrior\HeroGameplayAbility_TargetLock.cpp.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Warrior\HeroGameplayAbility_TargetLock.gen.cpp.obj"
 "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Warrior\Warrior.init.gen.cpp.obj"

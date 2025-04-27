@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Warrior.cpp.obj": [
+			"AbilityTask_ExecuteTaskOnTick.gen.cpp.obj",
 			"BTService_OrientToTargetActor.gen.cpp.obj",
 			"BTTask_RotateToFaceTarget.gen.cpp.obj",
 			"DataAsset_EnemyStartUpData.gen.cpp.obj",
@@ -19,6 +20,7 @@
 			"PawnExtensionComponentBase.gen.cpp.obj",
 			"PawnUIComponent.gen.cpp.obj",
 			"PawnUIInterface.gen.cpp.obj",
+			"Warrior.init.gen.cpp.obj",
 			"WarriorAbilitySystemComponent.gen.cpp.obj",
 			"WarriorAIController.gen.cpp.obj",
 			"WarriorAttributeSet.gen.cpp.obj",
@@ -46,6 +48,7 @@
 			"WarriorEnemyGameplayAbility.cpp.obj",
 			"WarriorGameplayAbility.cpp.obj",
 			"WarriorHeroGameplayAbility.cpp.obj",
+			"AbilityTask_ExecuteTaskOnTick.cpp.obj",
 			"GEExactCalc_DamageTaken.cpp.obj",
 			"WarriorAbilitySystemComponent.cpp.obj",
 			"WarriorAttributeSet.cpp.obj",
@@ -73,18 +76,15 @@
 			"WarriorCharacterAnimInstance.cpp.obj",
 			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameModeBase.cpp.obj",
-			"WarriorGameplayTags.cpp.obj",
 			"WarriorHeroAnimInstance.cpp.obj",
-			"WarriorHeroCharacter.cpp.obj",
 			"WarriorHeroController.cpp.obj",
 			"WarriorHeroLinkedAnimLayer.cpp.obj",
 			"WarriorInputComponent.cpp.obj",
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
 			"Warrior.cpp.obj",
-			"AbilityTask_ExecuteTaskOnTick.gen.cpp.obj",
-			"Warrior.init.gen.cpp.obj",
-			"AbilityTask_ExecuteTaskOnTick.cpp.obj"
+			"WarriorGameplayTags.cpp.obj",
+			"WarriorHeroCharacter.cpp.obj"
 		]
 	}
 }
