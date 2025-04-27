@@ -73,7 +73,9 @@
 			"WarriorCharacterAnimInstance.cpp.obj",
 			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameModeBase.cpp.obj",
+			"WarriorGameplayTags.cpp.obj",
 			"WarriorHeroAnimInstance.cpp.obj",
+			"WarriorHeroCharacter.cpp.obj",
 			"WarriorHeroController.cpp.obj",
 			"WarriorHeroLinkedAnimLayer.cpp.obj",
 			"WarriorInputComponent.cpp.obj",
@@ -82,9 +84,7 @@
 			"Warrior.cpp.obj",
 			"HeroGameplayAbility_TargetLock.gen.cpp.obj",
 			"Warrior.init.gen.cpp.obj",
-			"HeroGameplayAbility_TargetLock.cpp.obj",
-			"WarriorGameplayTags.cpp.obj",
-			"WarriorHeroCharacter.cpp.obj"
+			"HeroGameplayAbility_TargetLock.cpp.obj"
 		]
 	}
 }

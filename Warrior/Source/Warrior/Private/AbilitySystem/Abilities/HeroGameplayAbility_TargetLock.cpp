@@ -53,10 +53,12 @@ void UHeroGameplayAbility_TargetLock::OnTargetLockTick(float DeltaTime)
 		!UWarriorFunctionLibrary::NativeDoesActorHaveTag(GetHeroCharacterFromActorInfo(), WarriorGameplayTags::Player_Status_Blocking);
 
 	if (bShouldOverrideRotation) {
-		const FRotator LookAtRot = UKismetMathLibrary::FindLookAtRotation(
+		FRotator LookAtRot = UKismetMathLibrary::FindLookAtRotation(
 			GetHeroCharacterFromActorInfo()->GetActorLocation(),
 			CurrentLockedActor->GetActorLocation()
 		);
+
+		LookAtRot -= FRotator(TargetLockCameraOffsetDistance, 0.f, 0.f);
 
 		const FRotator CurentControlRot = GetHeroControllerFromActorInfo()->GetControlRotation();
 		const FRotator TargetRot = FMath::RInterpTo(CurentControlRot, LookAtRot, DeltaTime, TargetLockRotationInterpSpeed);
