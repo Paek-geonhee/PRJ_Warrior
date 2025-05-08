@@ -8,6 +8,7 @@
 #include "GenericTeamAgentInterface.h"
 #include "Character/Input/WarriorGameplayTags.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "GameplayEffectTypes.h"
 
 #include "WarriorDebugHelper.h"
 
@@ -125,4 +126,14 @@ bool UWarriorFunctionLibrary::IsValidBlock(AActor* InAttacker, AActor* InDefende
     const float DotResult = FVector::DotProduct(InAttacker->GetActorForwardVector(), InDefender->GetActorForwardVector());
 
     return DotResult < -0.1f;
+}
+
+bool UWarriorFunctionLibrary::ApplyGameplayEffectSpecHandleToTargetActor(AActor* InInstigator, AActor* InTargetActor, const FGameplayEffectSpecHandle& InSpecHandle)
+{
+    UWarriorAbilitySystemComponent* SourceASC = NativeGetWarriorASCFromActor(InInstigator);
+    UWarriorAbilitySystemComponent* TargetASC = NativeGetWarriorASCFromActor(InTargetActor);
+
+    FActiveGameplayEffectHandle ActiveGameplayEffectHandle = SourceASC->ApplyGameplayEffectSpecToTarget(*InSpecHandle.Data.Get(), TargetASC);
+
+    return ActiveGameplayEffectHandle.WasSuccessfullyApplied();
 }

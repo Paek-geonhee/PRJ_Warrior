@@ -20,7 +20,6 @@
 			"PawnExtensionComponentBase.gen.cpp.obj",
 			"PawnUIComponent.gen.cpp.obj",
 			"PawnUIInterface.gen.cpp.obj",
-			"Warrior.init.gen.cpp.obj",
 			"WarriorAbilitySystemComponent.gen.cpp.obj",
 			"WarriorAIController.gen.cpp.obj",
 			"WarriorAttributeSet.gen.cpp.obj",
@@ -44,6 +43,7 @@
 			"WarriorWeaponBase.gen.cpp.obj",
 			"WarriorWidgetBase.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"HeroGameplayAbility_TargetLock.cpp.obj",
 			"WarriorEnemyGameplayAbility.cpp.obj",
 			"WarriorGameplayAbility.cpp.obj",
 			"WarriorHeroGameplayAbility.cpp.obj",
@@ -73,9 +73,7 @@
 			"WarriorBaseAnimInstance.cpp.obj",
 			"WarriorBaseCharacter.cpp.obj",
 			"WarriorCharacterAnimInstance.cpp.obj",
-			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameModeBase.cpp.obj",
-			"WarriorGameplayTags.cpp.obj",
 			"WarriorHeroAnimInstance.cpp.obj",
 			"WarriorHeroCharacter.cpp.obj",
 			"WarriorHeroController.cpp.obj",
@@ -84,7 +82,11 @@
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
 			"Warrior.cpp.obj",
-			"HeroGameplayAbility_TargetLock.cpp.obj"
+			"Warrior.init.gen.cpp.obj",
+			"WarriorProjectileBase.gen.cpp.obj",
+			"WarriorProjectileBase.cpp.obj",
+			"WarriorFunctionLibrary.cpp.obj",
+			"WarriorGameplayTags.cpp.obj"
 		]
 	}
 }

@@ -14,6 +14,7 @@ class APawn;
 class UPawnCombatComponent;
 enum class EWarriorConfirmType : uint8;
 enum class EWarriorValidType : uint8;
+struct FGameplayEffectSpecHandle;
 struct FGameplayTag;
 struct FScalableFloat;
 #ifdef WARRIOR_WarriorFunctionLibrary_generated_h
@@ -21,7 +22,8 @@ struct FScalableFloat;
 #endif
 #define WARRIOR_WarriorFunctionLibrary_generated_h
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execApplyGameplayEffectSpecHandleToTargetActor); \
 	DECLARE_FUNCTION(execIsValidBlock); \
 	DECLARE_FUNCTION(execComputeHitReactDirectionTag); \
 	DECLARE_FUNCTION(execGetScalableFloatValueAtLevel); \
@@ -32,7 +34,7 @@ struct FScalableFloat;
 	DECLARE_FUNCTION(execAddGameplayTagToActorIfNone);
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_21_INCLASS_NO_PURE_DECLS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUWarriorFunctionLibrary(); \
 	friend struct Z_Construct_UClass_UWarriorFunctionLibrary_Statics; \
@@ -41,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(UWarriorFunctionLibrary)
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_21_ENHANCED_CONSTRUCTORS \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_23_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UWarriorFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -55,13 +57,13 @@ public: \
 	NO_API virtual ~UWarriorFunctionLibrary();
 
 
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_18_PROLOG
-#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_21_GENERATED_BODY \
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_20_PROLOG
+#define FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_21_INCLASS_NO_PURE_DECLS \
-	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_21_ENHANCED_CONSTRUCTORS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Users_user_Desktop_PRJ_Warrior_Warrior_Source_Warrior_Public_WarriorFunctionLibrary_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

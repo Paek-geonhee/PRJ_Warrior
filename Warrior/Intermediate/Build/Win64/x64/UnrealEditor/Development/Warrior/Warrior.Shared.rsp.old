@@ -303,6 +303,12 @@
 /I "C:\Users\user\Desktop\PRJ_Warrior\Warrior\Source\Warrior\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimGraphRuntime\UHT"
 /I "Runtime\AnimGraphRuntime\Public"
+/I "..\Plugins\Animation\MotionWarping\Intermediate\Build\Win64\UnrealEditor\Inc\MotionWarping\UHT"
+/I "..\Plugins\Animation\MotionWarping\Source"
+/I "..\Plugins\Animation\MotionWarping\Source\MotionWarping\Public"
+/I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimGraph\UHT"
+/I "Editor\AnimGraph\Public"
+/I "Editor\AnimGraph\Internal"
 /external:W0
 /external:I "ThirdParty\GuidelinesSupportLibrary\GSL-1144\include"
 /external:I "ThirdParty\RapidJSON\1.1.0"
