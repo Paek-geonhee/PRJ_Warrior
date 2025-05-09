@@ -29,7 +29,6 @@
 			"WarriorEnemyCharacter.gen.cpp.obj",
 			"WarriorEnemyGameplayAbility.gen.cpp.obj",
 			"WarriorEnumTypes.gen.cpp.obj",
-			"WarriorFunctionLibrary.gen.cpp.obj",
 			"WarriorGameModeBase.gen.cpp.obj",
 			"WarriorGameplayAbility.gen.cpp.obj",
 			"WarriorHeroAnimInstance.gen.cpp.obj",
@@ -73,7 +72,6 @@
 			"WarriorBaseAnimInstance.cpp.obj",
 			"WarriorBaseCharacter.cpp.obj",
 			"WarriorCharacterAnimInstance.cpp.obj",
-			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameModeBase.cpp.obj",
 			"WarriorHeroAnimInstance.cpp.obj",
 			"WarriorHeroCharacter.cpp.obj",
@@ -84,8 +82,10 @@
 			"WarriorWidgetBase.cpp.obj",
 			"Warrior.cpp.obj",
 			"Warrior.init.gen.cpp.obj",
+			"WarriorFunctionLibrary.gen.cpp.obj",
 			"WarriorProjectileBase.gen.cpp.obj",
 			"WarriorProjectileBase.cpp.obj",
+			"WarriorFunctionLibrary.cpp.obj",
 			"WarriorGameplayTags.cpp.obj"
 		]
 	}
