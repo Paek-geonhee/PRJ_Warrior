@@ -55,7 +55,6 @@
 			"WarriorAttributeSet.cpp.obj",
 			"BTService_OrientToTargetActor.cpp.obj",
 			"BTTask_RotateToFaceTarget.cpp.obj",
-			"EnemyCombatComponent.cpp.obj",
 			"HeroCombatComponent.cpp.obj",
 			"PawnCombatComponent.cpp.obj",
 			"PawnExtensionComponentBase.cpp.obj",
@@ -86,6 +85,7 @@
 			"WarriorStructTypes.cpp.obj",
 			"WarriorWidgetBase.cpp.obj",
 			"Warrior.cpp.obj",
+			"EnemyCombatComponent.cpp.obj",
 			"WarriorGameplayTags.cpp.obj"
 		]
 	}
